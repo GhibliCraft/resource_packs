@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/wildrice/wildrice_1"
+      },
+      {
+        "model": "block/wildrice/wildrice_2"
+      },
+      {
+        "model": "block/wildrice/wildrice_3"
+      },
+      {
+        "model": "block/wildrice/wildrice_4"
+      }
+    ]
+  }
+}

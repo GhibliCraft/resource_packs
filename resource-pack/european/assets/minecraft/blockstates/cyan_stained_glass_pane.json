@@ -1,0 +1,28 @@
+{
+    "multipart": [
+        {   "when": { "north": true },
+            "apply": { "model": "block/cyan_stained_glass_pane_side" }
+        },
+        {   "when": { "east": true },
+            "apply": { "model": "block/cyan_stained_glass_pane_side", "y": 90 }
+        },
+        {   "when": { "south": true },
+            "apply": { "model": "block/cyan_stained_glass_pane_side_alt" }
+        },
+        {   "when": { "west": true },
+            "apply": { "model": "block/cyan_stained_glass_pane_side_alt", "y": 90 }
+        },
+        {   "when": { "north": false, "east": false },
+            "apply": { "model": "block/cyan_stained_glass_pane_post" }
+        },
+        {   "when": { "north": false, "west": false },
+            "apply": { "model": "block/cyan_stained_glass_pane_post" }
+        },
+        {   "when": { "south": false, "east": false },
+            "apply": { "model": "block/cyan_stained_glass_pane_post" }
+        },
+        {   "when": { "south": false, "west": false },
+            "apply": { "model": "block/cyan_stained_glass_pane_post" }
+        }
+    ]
+}

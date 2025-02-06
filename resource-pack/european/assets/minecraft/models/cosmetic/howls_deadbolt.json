@@ -1,0 +1,71 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/custom/cosmetics/howls_deadbolt",
+		"particle": "item/custom/cosmetics/howls_deadbolt"
+	},
+	"elements": [
+		{
+			"from": [8, 2, 5],
+			"to": [8, 7, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 2.5, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 2.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 11.5, 12], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 2.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 11.5, 12], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 2.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.7, 1.8, 7.7],
+			"to": [8, 3.4, 9.2],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.85, 2.5, 9.5]},
+			"faces": {
+				"north": {"uv": [11.5, 12, 12, 16], "texture": "#0"},
+				"east": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"south": {"uv": [11.5, 12, 12, 16], "texture": "#0"},
+				"west": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"up": {"uv": [11.5, 12, 12, 16], "texture": "#0"},
+				"down": {"uv": [11.5, 12, 12, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [24.5, -90, 0],
+			"translation": [0, 3.25, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [24.5, -90, 0],
+			"translation": [0, 3.25, 1.5]
+		},
+		"firstperson_righthand": {
+			"translation": [3.5, 4.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.5, 4.75, 0]
+		},
+		"ground": {
+			"translation": [0, 7.75, 0],
+			"scale": [1.86, 1.86, 1.86]
+		},
+		"gui": {
+			"rotation": [0, 50, 0],
+			"translation": [1, 9.75, 0],
+			"scale": [2.8, 2.8, 2.8]
+		},
+		"head": {
+			"rotation": [0, -90, 0],
+			"translation": [-1, -50.25, -1],
+			"scale": [3.18, 3.18, 3.18]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-2, 13.75, -0.5],
+			"scale": [4, 4, 4]
+		}
+	}
+}

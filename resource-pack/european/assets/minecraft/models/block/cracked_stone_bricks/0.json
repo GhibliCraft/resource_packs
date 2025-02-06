@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "block/custom/variants/cracked_stone_bricks/0"
+    }
+}

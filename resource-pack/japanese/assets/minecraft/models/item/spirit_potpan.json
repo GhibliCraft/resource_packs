@@ -1,0 +1,534 @@
+{
+  "__comment": "Designed_by_Alanbecker_with_Cubik_Studio_-_https://cubik.studio",
+  "textures": {
+    "particle": "block/custom/characters/potpan_spirit/potpan_spirit_body",
+    "cloth": "block/custom/characters/potpan_spirit/potpan_spirit_cloth",
+    "east": "block/custom/characters/potpan_spirit/potpan_spirit_east",
+    "south": "block/custom/characters/potpan_spirit/potpan_spirit_south",
+    "west": "block/custom/characters/potpan_spirit/potpan_spirit_west",
+    "hat": "block/custom/characters/potpan_spirit/potpan_spirit_hat"
+  },
+  "elements": [
+    {
+      "__comment": "body",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#particle"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#particle"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#particle"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#particle"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#particle"
+        }
+      }
+    },
+    {
+      "__comment": "pots_east",
+      "from": [
+        17.5,
+        0,
+        -1.5
+      ],
+      "to": [
+        17.501,
+        16,
+        17.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#east"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#east"
+        }
+      }
+    },
+    {
+      "__comment": "cloth_south",
+      "from": [
+        -0.5,
+        0,
+        16.5
+      ],
+      "to": [
+        16.5,
+        16,
+        16.501
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cloth"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cloth"
+        }
+      }
+    },
+    {
+      "__comment": "cloth_east",
+      "from": [
+        16.5,
+        0,
+        -0.5
+      ],
+      "to": [
+        16.501,
+        16,
+        16.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cloth"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cloth"
+        }
+      }
+    },
+    {
+      "__comment": "pots_south",
+      "from": [
+        -1.5,
+        0,
+        17.5
+      ],
+      "to": [
+        17.5,
+        16,
+        17.501
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#south"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#south"
+        }
+      }
+    },
+    {
+      "__comment": "hat_bottom",
+      "from": [
+        -1.5,
+        16,
+        -1.5
+      ],
+      "to": [
+        17.5,
+        18.5,
+        17.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "north": {
+          "uv": [
+            0,
+            13.5,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "south": {
+          "uv": [
+            0,
+            13.5,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "west": {
+          "uv": [
+            0,
+            13.5,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "east": {
+          "uv": [
+            0,
+            13.5,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        }
+      }
+    },
+    {
+      "__comment": "hat_top",
+      "from": [
+        6,
+        18.5,
+        6
+      ],
+      "to": [
+        10,
+        26.5,
+        10
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hat"
+        }
+      }
+    },
+    {
+      "__comment": "cloth_north",
+      "from": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "to": [
+        16.5,
+        16,
+        -0.499
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cloth"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cloth"
+        }
+      }
+    },
+    {
+      "__comment": "pots_west",
+      "from": [
+        -1.5,
+        0,
+        -1.5
+      ],
+      "to": [
+        -1.499,
+        16,
+        17.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#west"
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#west"
+        }
+      }
+    },
+    {
+      "__comment": "cloth_west",
+      "from": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "to": [
+        -0.499,
+        16,
+        16.5
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cloth"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cloth"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        -1.391,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -5,
+        0
+      ],
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    }
+  }
+}

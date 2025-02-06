@@ -1,0 +1,63 @@
+{
+"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+"textures": {
+    "particle": "block/custom/textures/brewing_stand/pot",
+    "texture": "block/custom/textures/brewing_stand/pot",
+    "stone_andesite_smooth": "block/custom/textures/brewing_stand/polished_andesite"
+},
+"elements": [ 
+{
+    "from": [ 2.5, 4, 2.5 ],
+    "to": [ 13.5, 5, 13.5 ],
+    "faces": {
+        "down":  { "uv": [ 13.5, 11, 2.5, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 2.5, 0, 13.5, 11 ], "texture": "#texture" },
+        "north": { "uv": [ 3, 11, 13, 12 ], "texture": "#texture" },
+        "south": { "uv": [ 3, 11, 13, 12 ], "texture": "#texture" },
+        "west":  { "uv": [ 3, 11, 13, 12 ], "texture": "#texture" },
+        "east":  { "uv": [ 3, 11, 13, 12 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 7.5, 5.5, 7.5 ],
+    "to": [ 8.5, 6.5, 8.5 ],
+    "faces": {
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 16, 3.5, 6 ],
+    "to": [ 16.0625, 7, 10 ],
+    "rotation": { "origin": [ 16, 7, 6 ], "axis": "z", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 13, 11.5, 16, 15.5 ], "rotation": 270, "texture": "#texture" },
+        "east":  { "uv": [ 0, 11.5, 3, 15.5 ], "rotation": 90, "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 3.5, 6 ],
+    "to": [ 0.0625, 7, 10 ],
+    "rotation": { "origin": [ 0, 7, 6 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 0, 11.5, 3, 15.5 ], "rotation": 90, "texture": "#texture" },
+        "east":  { "uv": [ 0, 11.5, 3, 15.5 ], "rotation": 90, "texture": "#texture" }
+    }
+},
+{
+    "from": [ 3, 0, 3 ],
+    "to": [ 13, 5.5, 13 ],
+    "faces": {
+        "down":  { "uv": [ 13, 10.5, 3, 0.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 3, 0.5, 13, 10.5 ], "texture": "#texture" },
+        "north": { "uv": [ 3, 10.5, 13, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 3, 10.5, 13, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 3, 10.5, 13, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 3, 10.5, 13, 16 ], "texture": "#texture" }
+    }
+}
+]
+}

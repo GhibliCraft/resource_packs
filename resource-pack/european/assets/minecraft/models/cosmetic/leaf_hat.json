@@ -1,0 +1,70 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "item/custom/cosmetics/leaf_umbrella",
+		"texture": "item/custom/cosmetics/leaf_umbrella"
+	},
+	"elements": [
+		{
+			"__comment": "PlaneY1",
+			"from": [ 0, 0, -4 ],
+			"to": [ 16, 0.001, 16 ],
+			"faces": {
+				"down": { "uv": [ 6, 0, 16, 8 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 6, 8, 16, 16 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Cube2",
+			"from": [ 7.5, 0, 10 ],
+			"to": [ 8.5, 3, 11 ],
+			"rotation": { "origin": [ 8.5, 0, 10 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 0.5, 0.5 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 0, 0, 0.5, 0.5 ], "texture": "#texture", "rotation": 90 },
+				"north": { "uv": [ 1, 0, 1.5, 1.5 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 0.5, 1.5 ], "texture": "#texture" },
+				"west": { "uv": [ 1.5, 0, 2, 1.5 ], "texture": "#texture" },
+				"east": { "uv": [ 0.5, 0, 1, 1.5 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 180, 177, 0 ],
+			"translation":  [ 0, -3.478, 0.6956 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 180, 177, 0 ],
+			"translation":  [ 0, -3.478, 0.6956 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 114, -180, 0 ],
+			"translation":  [ -1.39, 0.6962, 6.9565 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 114, -180, 0 ],
+			"translation":  [ -1.39, 0.6962, 6.9565 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 135, 0 ],
+			"translation":  [ -0.695, 5.5652, 0 ],
+			"scale":  [ 0.9, 0.9, 0.9 ]
+		},
+		"head": {
+			"translation":  [ 0, 15.303, 0 ]
+		},
+		"ground": {
+			"translation":  [ 0, 2.7826, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"rotation":  [ 90, -180, 0 ],
+			"translation":  [ 0, 2.0869, 6.9565 ]
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+    
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/golden_hoe"
+	},
+
+	"overrides": [
+		{ "predicate": { "damage": 0 },                          "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.03125 },     "model": "block/ponyo_potions/red/normal" },
+		{ "predicate": { "damaged": 0,  "damage": 0.0625 },      "model": "block/ponyo_potions/red/tall" },
+		{ "predicate": { "damaged": 0,  "damage": 0.09375 },     "model": "block/ponyo_potions/blue/normal" },
+		{ "predicate": { "damaged": 0,  "damage": 0.125 },       "model": "block/ponyo_potions/blue/tall" },
+		{ "predicate": { "damaged": 0,  "damage": 0.15625 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.1875 },      "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.21875 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.25 },        "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.28125 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.3125 },      "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.34375 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.375 },       "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.40625 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.4375 },      "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.46875 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.5 },         "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.53125 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.5625 },      "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.59375 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.625 },       "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.65625 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.6875 },      "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.71875 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.75 },        "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.78125 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.8125 },      "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.84375 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.875 },       "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.90625 },     "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.9375 },      "model": "item/golden_hoe" },
+		{ "predicate": { "damaged": 0,  "damage": 0.96875 },     "model": "item/golden_hoe" }
+	]
+}

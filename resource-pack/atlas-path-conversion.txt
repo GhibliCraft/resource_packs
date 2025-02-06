@@ -1,0 +1,54 @@
+
+
+
+custom_texture/
+> block/custom/textures/
+
+
+
+block_variant/
+> block/custom/variants/
+
+
+character/
+> block/custom/characters/
+
+# Cosmetics
+
+cosmetic/
+> item/custom/cosmetics/
+
+item/hats/
+
+depends... but:
+> item/custom/cosmetics
+
+
+# JAPAN ELEVATOR / BED DYE:
+entity/bed/
+> item/custom/bed_slabs/
+
+
+# Frog man
+entity/villager/ (brown mushroom block)
+> block/custom/characters/frog_man/
+
+
+# Radish man
+entity/villager/
+> block/custom/characters/radish_man/
+
+# Potpan ghost (ghost in spirited away, with all the pans and yellow clothes)
+entity/skeleton/
+> block/custom/characters/potpan_spirit/
+
+
+# Jumping lantern
+character/bouncing_lantern/ ...
+> block/custom/characters/bouncing_lantern/ ...
+
+
+
+# Ghost (in the Ghost Town)
+block/ghost_eyes
+> block/custom/characters/ghost/ghost_eyes

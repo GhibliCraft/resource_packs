@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/raw_iron_block/dark_stone_tiles_1",   "weight": 6 },
+      { "model": "minecraft:block/raw_iron_block/dark_stone_tiles_2",  "weight": 5 },
+      { "model": "minecraft:block/raw_iron_block/dark_stone_tiles_3",  "weight": 5 },
+      { "model": "minecraft:block/raw_iron_block/dark_stone_tiles_4",  "weight": 2 },
+      { "model": "minecraft:block/raw_iron_block/dark_stone_tiles_5",  "weight": 2 }
+    ]
+      
+  }
+}

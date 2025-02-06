@@ -1,0 +1,157 @@
+{
+	"__comment": "Designed by Kowa with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"violin_extras": "item/custom/cosmetics/violin/extra",
+		"violin_back": "item/custom/cosmetics/violin/back",
+		"violin_front_bottom": "item/custom/cosmetics/violin/front",
+		"violin_scroll": "item/custom/cosmetics/violin/scroll"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "violin_base",
+			"from": [ 6.5, -0.75, 6 ],
+			"to": [ 10, 9.75, 7 ],
+			"faces": {
+				"down": { "uv": [ 13, 0, 14, 3 ], "texture": "#violin_extras" },
+				"up": { "uv": [ 13, 0, 14, 3 ], "texture": "#violin_extras" },
+				"north": { "uv": [ 13, 0, 14, 16 ], "texture": "#violin_extras" },
+				"south": { "uv": [ 13, 0, 14, 16 ], "texture": "#violin_extras" },
+				"west": { "uv": [ 13, 0, 14, 16 ], "texture": "#violin_extras" },
+				"east": { "uv": [ 13, 0, 14, 16 ], "texture": "#violin_extras" }
+			}
+		},
+		{
+			"__comment": "violin_front_top",
+			"from": [ 5.5, 4.5, 7 ],
+			"to": [ 11, 10, 7.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#violin_back" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#violin_back" }
+			}
+		},
+		{
+			"__comment": "violin_front_bottom",
+			"from": [ 5.5, -1, 7 ],
+			"to": [ 11, 4.5, 7.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 16, 16, 0 ], "texture": "#violin_back" },
+				"south": { "uv": [ 16, 16, 0, 0 ], "texture": "#violin_front_bottom" }
+			}
+		},
+		{
+			"__comment": "violin_front_top",
+			"from": [ 5.5, 4.5, 5.999 ],
+			"to": [ 11, 10, 6 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#violin_back" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#violin_back" }
+			}
+		},
+		{
+			"__comment": "violin_front_bottom",
+			"from": [ 5.5, -1, 5.999 ],
+			"to": [ 11, 4.5, 6 ],
+			"faces": {
+				"north": { "uv": [ 16, 16, 0, 0 ], "texture": "#violin_back" },
+				"south": { "uv": [ 16, 16, 0, 0 ], "texture": "#violin_back" }
+			}
+		},
+		{
+			"__comment": "violin_neck",
+			"from": [ 7.75, 5.5, 6.625 ],
+			"to": [ 8.75, 15.5, 7.125 ],
+			"faces": {
+				"down": { "uv": [ 7.75, 9, 8.75, 9.5 ], "texture": "#violin_extras" },
+				"up": { "uv": [ 13, 6, 14, 6.5 ], "texture": "#violin_extras" },
+				"north": { "uv": [ 3, 1, 5, 16 ], "texture": "#violin_scroll" },
+				"south": { "uv": [ 15, 0, 16, 16 ], "texture": "#violin_extras" },
+				"west": { "uv": [ 0, 0, 11, 4.5 ], "texture": "#violin_scroll" },
+				"east": { "uv": [ 11, 0, 0, 4.5 ], "texture": "#violin_scroll" }
+			}
+		},
+		{
+			"__comment": "violin_strings",
+			"from": [ 7.75, 1.125, 7.125 ],
+			"to": [ 8.75, 14.625, 7.126 ],
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 8.5, 15 ], "texture": "#violin_extras" },
+				"south": { "uv": [ 0, 0, 12, 16 ], "texture": "#violin_extras" }
+			}
+		},
+		{
+			"__comment": "violin_scroll",
+			"from": [ 7.75, 15.5, 6.625 ],
+			"to": [ 8.75, 16.5, 7.625 ],
+			"rotation": { "origin": [ 7.75, 15.5, 6.625 ], "axis": "x", "angle": 0 },
+			"faces": {
+				"down": { "uv": [ 6, 0, 12, 4.5 ], "texture": "#violin_scroll" },
+				"up": { "uv": [ 7, 11.5, 12, 16 ], "texture": "#violin_scroll" },
+				"north": { "uv": [ 0, 4, 3, 6 ], "texture": "#violin_scroll", "rotation": 90 },
+				"south": { "uv": [ 6.5, 11, 12.5, 16 ], "texture": "#violin_scroll", "rotation": 90 },
+				"west": { "uv": [ 3.5, 3.5, 14, 13 ], "texture": "#violin_scroll" },
+				"east": { "uv": [ 14, 3.5, 3.5, 13 ], "texture": "#violin_scroll" }
+			}
+		},
+		{
+			"__comment": "violin_peg_bottom",
+			"from": [ 7.25, 14, 6.75 ],
+			"to": [ 9.25, 14.25, 7 ],
+			"faces": {
+				"down": { "uv": [ 15, 15, 16, 16 ], "texture": "#violin_extras", "rotation": 270 },
+				"up": { "uv": [ 15, 1, 16, 0 ], "texture": "#violin_extras", "rotation": 90 },
+				"north": { "uv": [ 15, 0, 16, 16 ], "texture": "#violin_extras" },
+				"south": { "uv": [ 16, 0, 15, 16 ], "texture": "#violin_extras" },
+				"west": { "uv": [ 15, 0, 16, 16 ], "texture": "#violin_extras" },
+				"east": { "uv": [ 16, 0, 15, 16 ], "texture": "#violin_extras" }
+			}
+		},
+		{
+			"__comment": "violin_peg_top",
+			"from": [ 7.25, 14.75, 6.75 ],
+			"to": [ 9.25, 15, 7 ],
+			"faces": {
+				"down": { "uv": [ 15, 15, 16, 16 ], "texture": "#violin_extras", "rotation": 270 },
+				"up": { "uv": [ 15, 1, 16, 0 ], "texture": "#violin_extras", "rotation": 90 },
+				"north": { "uv": [ 15, 0, 16, 16 ], "texture": "#violin_extras" },
+				"south": { "uv": [ 16, 0, 15, 16 ], "texture": "#violin_extras" },
+				"west": { "uv": [ 15, 0, 16, 16 ], "texture": "#violin_extras" },
+				"east": { "uv": [ 16, 0, 15, 16 ], "texture": "#violin_extras" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 90, 180, 0 ],
+			"translation":  [ 0.6956, 2.01, -1.391 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 90, 180, 155 ],
+			"translation":  [ 2.0869, 2.01, 3.4782 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 180, 0 ],
+			"translation":  [ 0, 5.5651, 1.3912 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 86, -180, 131 ],
+			"translation":  [ 0, 6.2608, 2.0869 ]
+		},
+		"gui": {
+			"rotation":  [ -45, -13, -50 ],
+			"translation":  [ 0, 1.3, 0 ]
+		},
+		"head": {
+			"rotation":  [ -90, 0, 0 ],
+			"translation":  [ 0, 10.7, -5.608 ],
+			"scale":  [ 2, 2, 2 ]
+		},
+		"ground": {
+			"translation":  [ 0, 5, 0 ]
+		},
+		"fixed": {
+			"rotation":  [ 11, 180, 0 ],
+			"translation":  [ 0, 2.3, -4.217 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}

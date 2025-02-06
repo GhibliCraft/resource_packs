@@ -1,0 +1,38 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/custom/textures/rail/rail",
+		"rail": "block/custom/textures/rail/rail"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box2",
+			"from": [ 9.4191, 0, 10.3566 ],
+			"to": [ 11.4191, 1.98, 16.8566 ],
+			"rotation": { "origin": [ 11.375, 0, 10.25 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 7, 0, 9, 8 ], "texture": "#rail", "rotation": 180 },
+				"up": { "uv": [ 7, 0, 9, 8 ], "texture": "#rail" },
+				"north": { "uv": [ 5, 0, 7, 2 ], "texture": "#rail" },
+				"south": { "uv": [ 5, 0, 7, 2 ], "texture": "#rail" },
+				"west": { "uv": [ 7, 0, 9, 8 ], "texture": "#rail", "rotation": 90 },
+				"east": { "uv": [ 7, 0, 9, 8 ], "texture": "#rail", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 9.8523, 0, 6.9477 ],
+			"to": [ 16.3523, 1.99, 8.947701 ],
+			"rotation": { "origin": [ 16.375, 0, 8.75 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 7, 0, 9, 8 ], "texture": "#rail", "rotation": 90 },
+				"up": { "uv": [ 7, 0, 9, 8 ], "texture": "#rail", "rotation": 90 },
+				"north": { "uv": [ 7, 0, 9, 8 ], "texture": "#rail", "rotation": 90 },
+				"south": { "uv": [ 7, 0, 9, 8 ], "texture": "#rail", "rotation": 90 },
+				"west": { "uv": [ 5, 0, 7, 2 ], "texture": "#rail" },
+				"east": { "uv": [ 5, 0, 7, 2 ], "texture": "#rail" }
+			}
+		}
+	]
+}

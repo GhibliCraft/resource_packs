@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/fermented_spider_eye"
+	},
+	"elements": [
+		{
+			"from": [7, 4, 4],
+			"to": [7, 12, 12],
+			"faces": {
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.31, 0.31, 0.31]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.31, 0.31, 0.31]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"scale": [1.89, 1.89, 1.89]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, 3],
+			"scale": [4, 4, 4]
+		}
+	}
+}

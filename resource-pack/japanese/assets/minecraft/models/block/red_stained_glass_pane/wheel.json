@@ -1,0 +1,41 @@
+{
+"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+"textures": {
+    "particle": "block/custom/textures/red_stained_glass_pane/valve_wheel",
+    "base": "block/smooth_stone",
+    "texture": "block/custom/textures/red_stained_glass_pane/valve_wheel",
+    "neck": "block/chiseled_stone_bricks"
+},
+"elements": [ 
+{
+    "from": [ 5, 5, 0 ],
+    "to": [ 11, 11, 1 ],
+    "faces": {
+        "down":  { "uv": [ 6, 13, 0, 12 ], "texture": "#base" },
+        "up":    { "uv": [ 10, 12, 16, 13 ], "texture": "#base" },
+        "north": { "uv": [ 10, 7, 16, 13 ], "texture": "#base" },
+        "south": { "uv": [ 10, 7, 16, 13 ], "texture": "#base" },
+        "west":  { "uv": [ 0, 10, 1, 16 ], "texture": "#base" },
+        "east":  { "uv": [ 0, 10, 1, 16 ], "texture": "#base" }
+    }
+},
+{
+    "from": [ 7, 7, 1 ],
+    "to": [ 9, 9, 6 ],
+    "faces": {
+        "down":  { "uv": [ 16, 13, 14, 8 ], "texture": "#neck" },
+        "up":    { "uv": [ 14, 8, 16, 13 ], "texture": "#neck" },
+        "west":  { "uv": [ 9.5, 14, 14.5, 16 ], "texture": "#neck" },
+        "east":  { "uv": [ 9.5, 14, 14.5, 16 ], "texture": "#neck" }
+    }
+},
+{
+    "from": [ 1, 1, 6 ],
+    "to": [ 15, 15, 6.0625 ],
+    "faces": {
+        "north": { "uv": [ 1, 1, 15, 15 ], "texture": "#texture" },
+        "south": { "uv": [ 1, 1, 15, 15 ], "texture": "#texture" }
+    }
+}
+]
+}

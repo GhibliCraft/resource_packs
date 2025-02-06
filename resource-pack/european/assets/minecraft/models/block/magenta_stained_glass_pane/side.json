@@ -1,0 +1,6 @@
+{
+    "parent": "block/custom_template/hanging_food_side",
+    "textures": {
+        "texture": "block/custom/textures/magenta_stained_glass_pane/hanging_chili"
+    }
+}

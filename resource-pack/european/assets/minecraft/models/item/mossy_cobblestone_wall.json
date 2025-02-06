@@ -1,0 +1,7 @@
+{
+    "parent": "block/custom_template/wall_inventory",
+    "textures": {
+    	"side": "block/custom/textures/mossy_cobblestone_wall/cobblestone_mossy_pole_side",
+        "post": "block/custom/textures/mossy_cobblestone_wall/cobblestone_mossy_pole"
+    }
+}

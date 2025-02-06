@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/end_stone_bricks" },
+		{ "model": "block/end_stone_bricks/0" }
+		]
+    }
+}

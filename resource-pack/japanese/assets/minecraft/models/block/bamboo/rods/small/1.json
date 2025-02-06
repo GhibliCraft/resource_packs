@@ -1,0 +1,59 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/custom/textures/bamboo/bamboo"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 11, 0, 3.5 ],
+			"to": [ 13, 16, 5.5 ],
+			"faces": {
+				"down": { "uv": [ 2, 2, 0, 0 ], "texture": "#particle" },
+				"up": { "uv": [ 0, 0, 2, 2 ], "texture": "#particle" },
+				"north": { "uv": [ 10, 0, 12, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 10, 0, 12, 16 ], "texture": "#particle" },
+				"west": { "uv": [ 10, 0, 12, 16 ], "texture": "#particle" },
+				"east": { "uv": [ 10, 0, 12, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 4, 0, 9 ],
+			"to": [ 6, 16, 11 ],
+			"faces": {
+				"down": { "uv": [ 2, 2, 0, 0 ], "texture": "#particle" },
+				"up": { "uv": [ 0, 0, 2, 2 ], "texture": "#particle" },
+				"north": { "uv": [ 6, 0, 8, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 6, 0, 8, 16 ], "texture": "#particle" },
+				"west": { "uv": [ 6, 0, 8, 16 ], "texture": "#particle" },
+				"east": { "uv": [ 6, 0, 8, 16 ], "texture": "#particle" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 62, 41, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 10, 48, -3 ],
+			"translation":  [ -1.89, 0, 0 ],
+			"scale":  [ 0.38, 0.38, 0.38 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 45, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 90, 0 ]
+		}
+	}
+}

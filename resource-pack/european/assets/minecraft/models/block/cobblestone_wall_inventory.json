@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "block/custom/textures/cobblestone_wall/cobblestone_pole_side"
+  }
+}

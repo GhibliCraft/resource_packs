@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/purple_concrete" },
+		{ "model": "block/purple_concrete/0" },
+		{ "model": "block/purple_concrete/1" }
+		]
+    }
+}

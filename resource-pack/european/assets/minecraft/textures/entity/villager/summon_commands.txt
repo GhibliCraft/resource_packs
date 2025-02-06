@@ -1,0 +1,20 @@
+FROGMAN (STATIONARY):
+/summon armor_stand ~ ~1 ~ {NoGravity:1b,Invisible:1,Invulnerable:1,Passengers:[{id:"villager",CustomName:"Frog Man",CustomNameVisible:1,Profession:4,ArmorItems:[{},{},{},{id:"minecraft:diamond_pickaxe",Damage:6,Count:1b}],Attributes:[{Name:generic.knockbackResistance,Base:1.0}],Invulnerable:1,PersistenceRequired:1,Silent:1,ActiveEffects:[{Id:11,Amplifier:5,Duration:8000000000,ShowParticles:0b}]}]}
+
+OLD-------------------------------------------------
+
+RADISH SPIRIT:
+/summon Villager ~ ~1 ~ {Profession:0,ArmorItems:[{},{},{},{id:red_mushroom_block,Count:1}],Attributes:[{Name:generic.movementSpeed,Base:0.3},{Name:generic.knockbackResistance,Base:1.0}],Invulnerable:1,PersistenceRequired:1,Silent:1,ActiveEffects:[{Id:11,Amplifier:5,Duration:400000000,ShowParticles:0b}]}
+
+FROGMAN:
+/summon Villager ~ ~1 ~ {Profession:4,ArmorItems:[{},{},{},{id:brown_mushroom_block,Count:1}],PersistenceRequired:1,Silent:1,ActiveEffects:[{Id:11,Amplifier:5,Duration:400000000,ShowParticles:0b}]}
+
+MASKED SPIRIT (STATIONARY):
+/summon ArmorStand ~ ~-3 ~ {Invisible:1,NoGravity:1,Passengers:[{id:"Villager",Profession:2,ArmorItems:[{},{},{},{id:ghast_tear,Count:1}],PersistenceRequired:1,Silent:1,ActiveEffects:[{Id:11,Amplifier:5,Duration:800000000,ShowParticles:0b}]}]}
+
+CHICK SPIRIT (STATIONARY):
+/summon Chicken ~ ~1 ~ {Attributes:[{Name:generic.movementSpeed,Base:0}],PersistenceRequired:1,ActiveEffects:[{Id:11,Amplifier:5,Duration:8000000000,ShowParticles:0b}],Passengers:[{id:"ArmorStand",Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:cooked_chicken,Count:1}]}]}
+
+CHICK SPIRIT 2 (STATIONARY):
+/summon ArmorStand ~ ~-2.5 ~ {Invisible:1,NoGravity:1,Passengers:[{id:"Villager",Profession:0,ArmorItems:[{},{},{},{id:cooked_chicken,Count:1}],PersistenceRequired:1,Silent:1,ActiveEffects:[{Id:11,Amplifier:5,Duration:400000000,ShowParticles:0b}]}]}
+

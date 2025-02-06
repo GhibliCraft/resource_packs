@@ -1,0 +1,21 @@
+{
+"__comment": "Designed by Alanbecker with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "block/smooth_stone_slab_side",
+    "texture": "block/smooth_stone"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 7, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 8, 16, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 0, 8, 16, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 0, 8, 16, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 0, 8, 16, 16 ], "texture": "#particle" }
+    }
+}
+]
+}

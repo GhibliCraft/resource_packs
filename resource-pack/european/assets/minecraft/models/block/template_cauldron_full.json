@@ -1,0 +1,61 @@
+{
+	"__comment": "Designed by Alanbecker with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
+	"textures": {
+		"basin_top": "block/custom/textures/cauldron/basin_top",
+		"basin_side": "block/custom/textures/cauldron/basin_side"
+	},
+	"elements": [ 
+		{
+			"from": [ 2, 0.5, 2 ],
+			"to": [ 14, 1.5, 14 ],
+			"faces": {
+				"down":  { "uv": [ 14, 14, 2, 2 ], "texture": "#basin_top" },
+				"up":    { "uv": [ 2, 2, 14, 14 ], "texture": "#basin_top" }
+			}
+		},
+		{
+			"from": [ 1, 0, 1 ],
+			"to": [ 2, 8.5, 15 ],
+			"faces": {
+				"down":  { "uv": [ 1, 1, 2, 15 ], "texture": "#basin_top" },
+				"up":    { "uv": [ 1, 1, 2, 15 ], "texture": "#basin_top" },
+				"north": { "uv": [ 1, 7.5, 2, 16 ], "texture": "#basin_side" },
+				"south": { "uv": [ 1, 7.5, 2, 16 ], "texture": "#basin_side" },
+				"west":  { "uv": [ 1, 7.5, 15, 16 ], "texture": "#basin_side" },
+				"east":  { "uv": [ 1, 0, 15, 8.5 ], "texture": "#basin_side" }
+			}
+		},
+		{
+			"from": [ 14, 0, 1 ],
+			"to": [ 15, 8.5, 15 ],
+			"faces": {
+				"down":  { "uv": [ 2, 15, 1, 1 ], "texture": "#basin_top" },
+				"up":    { "uv": [ 14, 1, 15, 15 ], "texture": "#basin_top" },
+				"north": { "uv": [ 1, 7.5, 2, 16 ], "texture": "#basin_side" },
+				"south": { "uv": [ 14, 7.5, 15, 16 ], "texture": "#basin_side" },
+				"west":  { "uv": [ 1, 0, 15, 8.5 ], "texture": "#basin_side" },
+				"east":  { "uv": [ 1, 7.5, 15, 16 ], "texture": "#basin_side" }
+			}
+		},
+		{
+			"from": [ 2, 0, 1 ],
+			"to": [ 14, 8.5, 2 ],
+			"faces": {
+				"down":  { "uv": [ 2, 1, 14, 2 ], "texture": "#basin_top" },
+				"up":    { "uv": [ 2, 1, 14, 2 ], "texture": "#basin_top" },
+				"north": { "uv": [ 2, 7.5, 14, 16 ], "texture": "#basin_side" },
+				"south": { "uv": [ 2, 0, 14, 8.5 ], "texture": "#basin_side" }
+			}
+		},
+		{
+			"from": [ 2, 0, 14 ],
+			"to": [ 14, 8.5, 15 ],
+			"faces": {
+				"down":  { "uv": [ 2, 14, 14, 15 ], "texture": "#basin_top" },
+				"up":    { "uv": [ 2, 14, 14, 15 ], "texture": "#basin_top" },
+				"north": { "uv": [ 2, 0, 14, 8.5 ], "texture": "#basin_side" },
+				"south": { "uv": [ 2, 7.5, 14, 16 ], "texture": "#basin_side" }
+			}
+		}
+	]
+}

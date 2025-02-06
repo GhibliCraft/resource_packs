@@ -1,0 +1,57 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/wooden_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0
+      },
+      "model": "item/wooden_pickaxe"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.016666666666666666
+      },
+      "model": "item/customblock_sand"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.05
+      },
+      "model": "item/ghost_normal"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.0667
+      },
+      "model": "item/ghost_tall"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.0833
+      },
+      "model": "item/ghost_short"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.1
+      },
+      "model": "item/ghost_long"
+    },
+    {
+      "predicate": {
+        "damaged": 0,
+        "damage": 0.11667
+      },
+      "model": "item/spirit_potpan"
+    }
+  ]
+}

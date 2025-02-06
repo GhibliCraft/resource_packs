@@ -1,0 +1,44 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "#particle"
+	},
+	"elements": [
+		{
+			"__comment": "PlaneX6",
+			"from": [ 4, 0, -8 ],
+			"to": [ 4.001, 16, 24 ],
+			"faces": {
+				"west": { "uv": [ 0, 8, 16, 16 ], "texture": "#particle" },
+				"east": { "uv": [ 16, 8, 0, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "PlaneX6",
+			"from": [ -8, 0, 4 ],
+			"to": [ 24, 16, 4.001 ],
+			"faces": {
+				"north": { "uv": [ 16, 8, 0, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 0, 8, 16, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "PlaneX6",
+			"from": [ 12, 0, -8 ],
+			"to": [ 12.001, 16, 24 ],
+			"faces": {
+				"west": { "uv": [ 0, 8, 16, 16 ], "texture": "#particle" },
+				"east": { "uv": [ 16, 8, 0, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "PlaneX6",
+			"from": [ -8, 0, 12 ],
+			"to": [ 24, 16, 12.001 ],
+			"faces": {
+				"north": { "uv": [ 16, 8, 0, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 0, 8, 16, 16 ], "texture": "#particle" }
+			}
+		}
+	]
+}

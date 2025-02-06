@@ -1,0 +1,116 @@
+{
+    "__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+    "ambientocclusion": true,
+	"textures": {
+        "particle": "block/custom/textures/brewing_stand/brewing_stand_base",
+        "all": "block/custom/textures/brewing_stand/brewing_stand_base"
+    },
+    "elements": [{
+        "from": [1, 4.5, 1],
+        "to": [15, 8.5, 15],
+        "faces": {
+            "down": {
+                "uv": [0.5, 11.5, 11.5, 0.5],
+                "texture": "#all"
+            },
+            "up": {
+                "uv": [0.5, 0.5, 11.5, 11.5],
+                "texture": "#all"
+            },
+            "north": {
+                "uv": [16, 12, 0, 16],
+                "texture": "#all"
+            },
+            "south": {
+                "uv": [0, 12, 16, 16],
+                "texture": "#all"
+            },
+            "west": {
+                "uv": [0, 12, 16, 16],
+                "texture": "#all"
+            },
+            "east": {
+                "uv": [16, 12, 0, 16],
+                "texture": "#all"
+            }
+        }
+    }, {
+        "from": [8, 8.5, 8],
+        "to": [8, 11.5, 12],
+        "__comment": "PlaneX",
+        "faces": {
+            "west": {
+                "uv": [12, 6, 16, 9],
+                "texture": "#all"
+            },
+            "east": {
+                "uv": [16, 6, 12, 9],
+                "texture": "#all"
+            }
+        }
+    }, {
+        "from": [8, 8.5, 4],
+        "to": [8, 11.5, 8],
+        "__comment": "PlaneX",
+        "faces": {
+            "west": {
+                "uv": [12, 9, 16, 12],
+                "texture": "#all"
+            },
+            "east": {
+                "uv": [16, 9, 12, 12],
+                "texture": "#all"
+            }
+        }
+    }, {
+        "from": [0.5, 0, 0.5],
+        "to": [15.5, 4, 15.5],
+        "faces": {
+            "down": {
+                "uv": [0, 12, 12, 0],
+                "texture": "#all"
+            },
+            "north": {
+                "uv": [16, 12, 0, 16],
+                "texture": "#all"
+            },
+            "south": {
+                "uv": [0, 12, 16, 16],
+                "texture": "#all"
+            },
+            "west": {
+                "uv": [0, 12, 16, 16],
+                "texture": "#all"
+            },
+            "east": {
+                "uv": [16, 12, 0, 16],
+                "texture": "#all"
+            }
+        }
+    }, {
+        "from": [0.5, 4, 0.5],
+        "to": [15.5, 8, 15.5],
+        "faces": {
+            "up": {
+                "uv": [0, 0, 12, 12],
+                "texture": "#all"
+            },
+            "north": {
+                "uv": [16, 12, 0, 16],
+                "texture": "#all"
+            },
+            "south": {
+                "uv": [0, 12, 16, 16],
+                "texture": "#all"
+            },
+            "west": {
+                "uv": [0, 12, 16, 16],
+                "texture": "#all"
+            },
+            "east": {
+                "uv": [16, 12, 0, 16],
+                "texture": "#all"
+            }
+        }
+    }]
+}

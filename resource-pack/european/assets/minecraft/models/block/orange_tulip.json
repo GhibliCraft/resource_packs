@@ -1,0 +1,72 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/custom/textures/orange_tulip/fern_large"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ -0.5, 0, -0.5 ],
+			"to": [ -0.4375, 24, 23.5 ],
+			"rotation": { "origin": [ -0.5, 0, -0.5 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"west": { "uv": [ 2, 4, 14, 16 ], "texture": "#particle" },
+				"east": { "uv": [ 14, 4, 2, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -0.5, 0, 16.5 ],
+			"to": [ 23.5, 24, 16.5625 ],
+			"rotation": { "origin": [ -0.5, 0, 16.5 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 2, 4, 14, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 14, 4, 2, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 8, 0, 0 ],
+			"to": [ 8.0625, 16, 16 ],
+			"faces": {
+				"west": { "uv": [ 2, 4, 14, 16 ], "texture": "#particle" },
+				"east": { "uv": [ 14, 4, 2, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 0, 0, 8 ],
+			"to": [ 16, 16, 8.0625 ],
+			"faces": {
+				"north": { "uv": [ 2, 4, 14, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 14, 4, 2, 16 ], "texture": "#particle" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 62, 41, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 10, 48, -3 ],
+			"translation":  [ -1.89, 0, 0 ],
+			"scale":  [ 0.38, 0.38, 0.38 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 45, 0 ],
+			"translation":  [ 0, -2, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 90, 0 ]
+		}
+	}
+}

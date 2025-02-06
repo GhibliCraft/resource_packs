@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "candles=1,lit=false": {
+      "model": "minecraft:block/cathedral_radio/cathedral_radio",
+      "y": 0
+    },
+    "candles=1,lit=true": {
+      "model": "minecraft:block/blue_candle_one_candle_lit"
+    },
+    "candles=2,lit=false": {
+      "model": "minecraft:block/cathedral_radio/cathedral_radio",
+      "y": 90
+    },
+    "candles=2,lit=true": {
+      "model": "minecraft:block/blue_candle_two_candles_lit"
+    },
+    "candles=3,lit=false": {
+      "model": "minecraft:block/cathedral_radio/cathedral_radio",
+      "y": 180
+    },
+    "candles=3,lit=true": {
+      "model": "minecraft:block/blue_candle_three_candles_lit"
+    },
+    "candles=4,lit=false": {
+      "model": "minecraft:block/cathedral_radio/cathedral_radio",
+      "y": 270
+    },
+    "candles=4,lit=true": {
+      "model": "minecraft:block/blue_candle_four_candles_lit"
+    }
+  }
+}

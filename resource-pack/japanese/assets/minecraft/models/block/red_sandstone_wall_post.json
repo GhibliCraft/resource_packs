@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "block/custom/textures/red_sandstone_wall/red_sandstone_pole"
+  }
+}

@@ -1,0 +1,44 @@
+{
+	"__comment": "Designed by Alanbecker, edited by AnJine with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "#texture"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 8, 0, 3.75 ],
+			"to": [ 8.0625, 16, 11.75 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 8, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 8, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 4.25, 0, 8 ],
+			"to": [ 12.25, 16, 8.0625 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 8, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 8, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 8, -16, 3.75 ],
+			"to": [ 8.0625, 0, 11.75 ],
+			"faces": {
+				"west": { "uv": [ 8, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 8, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 4.25, -16, 8 ],
+			"to": [ 12.25, 0, 8.0625 ],
+			"faces": {
+				"north": { "uv": [ 8, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 8, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

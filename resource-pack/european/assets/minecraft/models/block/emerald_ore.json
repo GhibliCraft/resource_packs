@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "particle": "block/custom/textures/emerald_ore/emerald_ore",
+        "end": "block/custom/textures/emerald_ore/emerald_ore_top",
+        "side": "block/custom/textures/emerald_ore/emerald_ore"
+    }
+}

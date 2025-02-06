@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "block/custom/textures/cobblestone_wall/cobblestone_pole"
+  }
+}

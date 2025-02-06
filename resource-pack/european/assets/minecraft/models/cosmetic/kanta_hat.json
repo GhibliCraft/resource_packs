@@ -1,0 +1,106 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "item/custom/cosmetics/kanta_hat/top",
+		"texture": "item/custom/cosmetics/kanta_hat/visor"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0, 11, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" },
+				"north": { "uv": [ 0, 0, 16, 5 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 5 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 16, 5 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 5 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneY3",
+			"from": [ 0.5, 8.5, -3 ],
+			"to": [ 15.5, 8.501, 0.5 ],
+			"rotation": { "origin": [ 0.5, 8.5, 0.5 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0.5, 16, 15.5, 12.5 ], "texture": "#texture" },
+				"up": { "uv": [ 0.5, 12.5, 15.5, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "east",
+			"from": [ 15.5, 8.5, 0.5 ],
+			"to": [ 15.501, 11, 16 ],
+			"faces": {
+				"west": { "uv": [ 15.5, 7.5, 0.5, 10 ], "texture": "#texture" },
+				"east": { "uv": [ 0.5, 7.5, 15.5, 10 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "back",
+			"from": [ 0.5, 8.5, 15.5 ],
+			"to": [ 15.5, 11, 15.501 ],
+			"faces": {
+				"north": { "uv": [ 0.5, 10, 15.5, 12.5 ], "texture": "#texture" },
+				"south": { "uv": [ 0.5, 10, 15.5, 12.5 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "front",
+			"from": [ 0.5, 8.5, 0.5 ],
+			"to": [ 15.5, 11, 0.501 ],
+			"faces": {
+				"north": { "uv": [ 0.5, 5, 15.5, 7.5 ], "texture": "#texture" },
+				"south": { "uv": [ 0.5, 10, 15.5, 12.5 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "west",
+			"from": [ 0.5, 8.5, 0.5 ],
+			"to": [ 0.501, 11, 16 ],
+			"faces": {
+				"west": { "uv": [ 15.5, 7.5, 0.5, 10 ], "texture": "#texture" },
+				"east": { "uv": [ 0.5, 7.5, 15.5, 10 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ -13, 180, 0 ],
+			"translation":  [ 0, -1.839, -4.965 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ -13, 180, 0 ],
+			"translation":  [ 0, -1.839, -4.965 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"translation":  [ 0, 1.839, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"translation":  [ 0, 1.839, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"translation":  [ 0, -2.206, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"head": {
+			"translation":  [ 0, 4.0459, 0 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"rotation":  [ 96, 0, 180 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}

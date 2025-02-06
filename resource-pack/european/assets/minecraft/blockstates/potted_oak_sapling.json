@@ -1,0 +1,8 @@
+{
+    "variants": {
+    	"": [
+    		{ "model": "block/potted_oak_sapling/0" },
+        	{ "model": "block/potted_oak_sapling/1" }
+        ]
+    }
+}

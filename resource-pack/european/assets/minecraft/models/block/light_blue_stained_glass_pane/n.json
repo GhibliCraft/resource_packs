@@ -1,0 +1,45 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/custom/textures/light_blue_stained_glass_pane/table_white",
+		"texture": "block/custom/textures/light_blue_stained_glass_pane/table_white"
+	},
+	"elements": [
+		{
+			"__comment": "T",
+			"from": [ 0, 16, 0 ],
+			"to": [ 16, 16.001, 16 ],
+			"faces": {
+				"down": { "uv": [ 8, 0, 16, 8 ], "texture": "#texture" },
+				"up": { "uv": [ 8, 0, 16, 8 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "E",
+			"from": [ 16, 0, 0 ],
+			"to": [ 16.001, 16, 16 ],
+			"faces": {
+				"west": { "uv": [ 16, 8, 8, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 8, 8, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "W",
+			"from": [ 0, 0, 0 ],
+			"to": [ 0.001, 16, 16 ],
+			"faces": {
+				"west": { "uv": [ 16, 8, 8, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 8, 8, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "S",
+			"from": [ 0, 0, 16 ],
+			"to": [ 16, 16, 16.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 8, 8, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 8, 8, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

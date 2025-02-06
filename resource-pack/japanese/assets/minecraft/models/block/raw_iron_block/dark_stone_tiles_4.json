@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft:block/custom/textures/raw_iron_block/dark_stone_tiles_4"
+  }
+}

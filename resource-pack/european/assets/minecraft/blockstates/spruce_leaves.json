@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/leaves/spruce/0" },
+			{ "model": "block/leaves/spruce/0", "y": 90 },
+			{ "model": "block/leaves/spruce/1" },
+			{ "model": "block/leaves/spruce/1", "y": 90 },
+			{ "model": "block/leaves/spruce/1", "y": 180 },	
+			{ "model": "block/leaves/spruce/1", "y": 270 },	
+			{ "model": "block/leaves/spruce/2" },
+			{ "model": "block/leaves/spruce/2", "y": 90 },
+			{ "model": "block/leaves/spruce/2", "y": 180 },
+			{ "model": "block/leaves/spruce/2", "y": 270 }
+		]
+    }
+}

@@ -1,0 +1,75 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/custom/textures/bamboo/bamboo_leaves"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 3, 0, -3 ],
+			"to": [ 3.0625, 24, 21 ],
+			"rotation": { "origin": [ 3, 24, -3 ], "axis": "z", "angle": 45 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 12, 12 ], "texture": "#particle" },
+				"east": { "uv": [ 0, 0, 12, 12 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 9.5, 0, -3 ],
+			"to": [ 9.5625, 24, 21 ],
+			"rotation": { "origin": [ 9.5, 24, -3 ], "axis": "z", "angle": -45 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 12, 12 ], "texture": "#particle" },
+				"east": { "uv": [ 0, 0, 12, 12 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -5, -0.3125, 6.3125 ],
+			"to": [ 19, 23.6875, 6.375 ],
+			"rotation": { "origin": [ -5, 23.6875, 6.3125 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 12, 12 ], "texture": "#particle" },
+				"south": { "uv": [ 0, 0, 12, 12 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -5.5, 0, 12 ],
+			"to": [ 18.5, 24, 12.0625 ],
+			"rotation": { "origin": [ -5.5, 24, 12 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 12, 12 ], "texture": "#particle" },
+				"south": { "uv": [ 0, 0, 12, 12 ], "texture": "#particle" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 62, 41, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 45, 0 ],
+			"translation":  [ 0, 4, 0 ],
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 90, 0 ]
+		}
+	}
+}

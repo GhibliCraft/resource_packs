@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+		{ "model": "block/smooth_red_sandstone" },
+		{ "model": "block/smooth_red_sandstone/0" },
+		{ "model": "block/smooth_red_sandstone/1" },
+		{ "model": "block/smooth_red_sandstone/2" }
+		]
+    }
+}

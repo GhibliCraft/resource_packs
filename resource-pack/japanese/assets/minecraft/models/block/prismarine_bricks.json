@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"texture": "block/prismarine_bricks_top",
+		"particle": "block/prismarine_bricks",
+		"prismarine_bricks": "block/prismarine_bricks"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#prismarine_bricks", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#prismarine_bricks", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#prismarine_bricks", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#prismarine_bricks", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#texture", "cullface": "up"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#texture", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [62, 41, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [62, 41, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, 48, -3],
+			"translation": [-1.89, 0, 0],
+			"scale": [0.38, 0.38, 0.38]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10, 48, -3],
+			"translation": [-1.89, 0, 0],
+			"scale": [0.38, 0.38, 0.38]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0]
+		}
+	}
+}

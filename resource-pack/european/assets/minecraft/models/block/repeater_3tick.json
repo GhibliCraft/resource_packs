@@ -1,0 +1,77 @@
+{
+	"credit": "Made by Alan Becker - edited by WingSun & Superhornet",
+	"textures": {
+		"1": "block/custom/textures/repeater/shoes_bottom_generic_plank",
+		"particle": "block/custom/textures/repeater/sandal2",
+		"texture": "block/custom/textures/repeater/sandal2"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 4],
+			"to": [7, 1, 14],
+			"faces": {
+				"north": {"uv": [5, 0, 10, 1], "texture": "#texture"},
+				"east": {"uv": [5, 0, 15, 1], "texture": "#texture"},
+				"south": {"uv": [5, 0, 10, 1], "texture": "#texture"},
+				"west": {"uv": [5, 0, 15, 1], "texture": "#texture"},
+				"up": {"uv": [0, 0, 5, 10], "texture": "#texture"},
+				"down": {"uv": [5, 10, 0, 0], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [4.5, 1, 5],
+			"to": [4.5625, 2.5, 11],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [4.5, 1, 5]},
+			"faces": {
+				"east": {"uv": [5, 1, 11, 2.5], "texture": "#texture"},
+				"west": {"uv": [5, 1, 11, 2.5], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [4.5, 1, 5],
+			"to": [4.5625, 2.5, 11],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [4.5, 1, 5]},
+			"faces": {
+				"east": {"uv": [5, 1, 11, 2.5], "texture": "#texture"},
+				"west": {"uv": [5, 1, 11, 2.5], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [8, 0, 3],
+			"to": [13, 1, 13],
+			"faces": {
+				"north": {"uv": [5, 0, 10, 1], "texture": "#texture"},
+				"east": {"uv": [5, 0, 15, 1], "texture": "#texture"},
+				"south": {"uv": [5, 0, 10, 1], "texture": "#texture"},
+				"west": {"uv": [5, 0, 15, 1], "texture": "#texture"},
+				"up": {"uv": [0, 0, 5, 10], "texture": "#texture"},
+				"down": {"uv": [5, 10, 0, 0], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [10.5, 1, 4],
+			"to": [10.5625, 2.5, 10],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [10.5, 1, 4]},
+			"faces": {
+				"east": {"uv": [5, 1, 11, 2.5], "texture": "#texture"},
+				"west": {"uv": [5, 1, 11, 2.5], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [10.5, 1, 4],
+			"to": [10.5625, 2.5, 10],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.5, 1, 4]},
+			"faces": {
+				"east": {"uv": [5, 1, 11, 2.5], "texture": "#texture"},
+				"west": {"uv": [5, 1, 11, 2.5], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#1" }
+			}
+		}
+	]
+}
