@@ -1,13 +1,22 @@
 name: Validate Resource Pack
+
 on: [push, pull_request]
+
 jobs:
   validate-resource-pack:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Validate Resource Pack
+      
+      - name: RESOURCE PACK VALIDATION - European
         uses: MrKinau/ResourcePackValidator@v1
         with:
           resourcepack: resource-pack/european/
+          config: config.json
+      
+      - name: RESOURCE PACK VALIDATION - Japanese
+        uses: MrKinau/ResourcePackValidator@v1
+        with:
+          resourcepack: resource-pack/japanese/
           config: config.json
