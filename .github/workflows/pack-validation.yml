@@ -1,0 +1,25 @@
+name: Validate Resource Packs
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Python (for validation tools)
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Minecraft Pack Validator
+        run: |
+          pip install mcpack-validator
+
+      - name: Validate Resource Packs
+        run: |
+          mcpack-validator check resource-pack/european/
+          mcpack-validator check resource-pack/japanese/
