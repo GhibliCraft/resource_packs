@@ -1,0 +1,58 @@
+{
+    "validators": {
+      "AnyNamespacePresentValidator": {
+        "enabled": true,
+        "logLevel": "WARN"
+      },
+      "ModelIsJsonObjectValidator": {
+        "enabled": true,
+        "logLevel": "ERROR",
+        "ignore": []
+      },
+      "ModelParentValidator": {
+        "enabled": true,
+        "logLevel": "ERROR",
+        "ignore": []
+      },
+      "ModelHasAnyTextureValidator": {
+        "enabled": true,
+        "logLevel": "WARN",
+        "ignore": []
+      },
+      "ModelTexturesExistsValidator": {
+        "enabled": true,
+        "logLevel": "ERROR",
+        "ignore": []
+      },
+      "ModelOverridesExistsValidator": {
+        "enabled": true,
+        "logLevel": "ERROR",
+        "ignore": []
+      },
+      "UnusedFileValidator": {
+        "enabled": true,
+        "logLevel": "ERROR",
+        "ignore": []
+      },
+      "TextureIsNotCorruptedValidator": {
+        "enabled": true,
+        "logLevel": "ERROR",
+        "ignore": []
+      },
+      "FontTextureExistsValidator": {
+        "enabled": true,
+        "logLevel": "ERROR",
+        "ignore": []
+      },
+      "FontCharacterUsageValidator": {
+        "enabled": true,
+        "logLevel": "ERROR",
+        "ignore": []
+      },
+      "ModelRequiresOverlayOverrideValidator": {
+        "enabled": false,
+        "logLevel": "ERROR",
+        "required": []
+      }
+    }
+  }
