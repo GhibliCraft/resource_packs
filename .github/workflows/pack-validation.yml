@@ -10,16 +10,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Python (for validation tools)
-        uses: actions/setup-python@v4
+      - name: Install Java (Required for Validator)
+        uses: actions/setup-java@v3
         with:
-          python-version: '3.x'
+          distribution: 'temurin'
+          java-version: '17'
 
-      - name: Install Minecraft Pack Validator
+      - name: Download Resource Pack Validator
         run: |
-          pip install mcpack-validator
+          wget https://github.com/InventivetalentDev/Minecraft-Resource-Pack-Validator/releases/latest/download/resource-pack-validator.jar
 
-      - name: Validate Resource Packs
+      - name: Validate European Resource Pack
         run: |
-          mcpack-validator check resource-pack/european/
-          mcpack-validator check resource-pack/japanese/
+          java -jar resource-pack-validator.jar resource-pack/european/
+
+      - name: Validate Japanese Resource Pack
+        run: |
+          java -jar resource-pack-validator.jar resource-pack/japanese/
