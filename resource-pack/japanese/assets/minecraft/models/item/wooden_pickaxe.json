@@ -14,13 +14,6 @@
     {
       "predicate": {
         "damaged": 0,
-        "damage": 0.016666666666666666
-      },
-      "model": "item/customblock_sand"
-    },
-    {
-      "predicate": {
-        "damaged": 0,
         "damage": 0.05
       },
       "model": "item/ghost_normal"
