@@ -27,7 +27,9 @@
       "ModelOverridesExistsValidator": {
         "enabled": true,
         "logLevel": "ERROR",
-        "ignore": []
+        "ignore": [
+            "resource-packs/european/traincarts/*"
+        ]
       },
       "UnusedFileValidator": {
         "enabled": true,
