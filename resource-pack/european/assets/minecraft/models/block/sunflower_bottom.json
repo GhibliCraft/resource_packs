@@ -1,7 +1,8 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "block/custom/textures/sunflower/corn_bottom"
+        "main": "block/custom/textures/sunflower/corn_bottom",
+        "particle": "#main"
     },
     "elements": [
         {   "from": [ 0.8, 0, 8 ],
@@ -9,8 +10,8 @@
             "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
             "shade": false,
             "faces": {
-                "north": { "uv": [ 8, 0, 0, 8 ], "texture": "#particle" },
-                "south": { "uv": [ 0, 0, 8, 8 ], "texture": "#particle" }
+                "north": { "uv": [ 8, 0, 0, 8 ], "texture": "#main" },
+                "south": { "uv": [ 0, 0, 8, 8 ], "texture": "#main" }
             }
         },
         {   "from": [ 8, 0, 0.8 ],
@@ -18,10 +19,9 @@
             "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
             "shade": false,
             "faces": {
-                "west": { "uv": [ 8, 0, 16, 8 ], "texture": "#particle" },
-                "east": { "uv": [ 16, 0, 8, 8 ], "texture": "#particle" }
+                "west": { "uv": [ 8, 0, 16, 8 ], "texture": "#main" },
+                "east": { "uv": [ 16, 0, 8, 8 ], "texture": "#main" }
             }
         }
-]
-}
+    ]
 }
