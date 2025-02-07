@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "block/custom/textures/polished_blackstone_wall/1"
+		"main": "block/custom/textures/polished_blackstone_wall/1",
+		"particle": "#main"
 	},
 	"elements": [
 		{
@@ -9,12 +10,12 @@
 			"from": [4, 0, 4],
 			"to": [12, 16, 12],
 			"faces": {
-				"north": {"uv": [0, 0, 8, 16], "texture": "#particle"},
-				"east": {"uv": [8, 0, 16, 16], "texture": "#particle"},
-				"south": {"uv": [0, 0, 8, 16], "texture": "#particle"},
-				"west": {"uv": [8, 0, 16, 16], "texture": "#particle"},
-				"up": {"uv": [0, 3, 8, 11], "texture": "#particle", "cullface": "up"},
-				"down": {"uv": [8, 8, 16, 16], "texture": "#particle", "cullface": "down"}
+				"north": {"uv": [0, 0, 8, 16], "texture": "#main"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#main"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#main"},
+				"west": {"uv": [8, 0, 16, 16], "texture": "#main"},
+				"up": {"uv": [0, 3, 8, 11], "texture": "#main", "cullface": "up"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#main", "cullface": "down"}
 			}
 		}
 	]
