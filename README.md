@@ -42,11 +42,11 @@ Each pack offers a unique artistic direction, enhancing different aspects of the
 
 ## ✨ Features  
 
-✔ **Handcrafted Textures** – Custom-made visuals inspired by Ghibli’s artistic style.
-✔ **Movie-Inspired Designs** – Blocks, items, and UI elements carefully crafted from Ghibli classics.
-✔ **Authentic Atmosphere** – Enhanced colors and details to bring the world to life.
-✔ **Custom Models & Cosmetics** – Unique 3D models and decorative elements to personalize your experience.
-✔ **Ongoing Updates** – Regular improvements and new additions to keep the packs fresh!
+✔ **Handcrafted Textures** – Custom-made visuals inspired by Ghibli’s artistic style.\
+✔ **Movie-Inspired Designs** – Blocks, items, and UI elements carefully crafted from Ghibli classics.\
+✔ **Authentic Atmosphere** – Enhanced colors and details to bring the world to life.\
+✔ **Custom Models & Cosmetics** – Unique 3D models and decorative elements to personalize your experience.\
+✔ **Ongoing Updates** – Regular improvements and new additions to keep the packs fresh!\
 
 
 ## 🤝 Contributing  
