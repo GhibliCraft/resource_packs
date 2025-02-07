@@ -1,0 +1,6 @@
+{
+	"parent": "item/.car",
+	"textures": {
+		"wheel": "items/extra/car_wheel_still"
+	}
+}

@@ -1,0 +1,213 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "items/hats/ricehat_top",
+		"side": "items/hats/strawhat_side",
+		"bottom": "items/hats/strawhat_bottom",
+		"string": "items/hats/strawhat_string"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneX2",
+			"from": [ 14, 8, 2 ],
+			"to": [ 14.001, 9, 14 ],
+			"faces": {
+				"west": { "uv": [ 2, 9.5, 14, 10.5 ], "texture": "#side" },
+				"east": { "uv": [ 2, 7, 14, 8 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "PlaneY3",
+			"from": [ 2, 9, 2 ],
+			"to": [ 14, 9.001, 14 ],
+			"faces": {
+				"down": { "uv": [ 2, 2, 14, 14 ], "texture": "#bottom" },
+				"up": { "uv": [ 2, 2, 14, 14 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "PlaneZ4",
+			"from": [ 2, 8, 14 ],
+			"to": [ 14, 9, 14.001 ],
+			"faces": {
+				"north": { "uv": [ 2, 9.5, 14, 10.5 ], "texture": "#side" },
+				"south": { "uv": [ 2, 7, 14, 8 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "PlaneZ4",
+			"from": [ 0, 6.5, 16 ],
+			"to": [ 16, 8, 16.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 10.5, 16, 12 ], "texture": "#side" },
+				"south": { "uv": [ 0, 8, 16, 9.5 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "PlaneX2",
+			"from": [ 16, 6.5, 0 ],
+			"to": [ 16.001, 8, 16 ],
+			"faces": {
+				"west": { "uv": [ 0, 10.5, 16, 12 ], "texture": "#side" },
+				"east": { "uv": [ 0, 8, 16, 9.5 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "Cube8",
+			"from": [ 3.5, -0.5, 5 ],
+			"to": [ 12.5, 9.5, 6 ],
+			"rotation": { "origin": [ 3.5, -0.5, 5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 11, 9, 12 ], "texture": "#string" },
+				"up": { "uv": [ 0, 0, 9, 1 ], "texture": "#string" },
+				"north": { "uv": [ 0, 0, 9, 11 ], "texture": "#string" },
+				"south": { "uv": [ 0, 0, 9, 11 ], "texture": "#string" },
+				"west": { "uv": [ 9, 0, 10, 11 ], "texture": "#string" },
+				"east": { "uv": [ 9, 0, 10, 11 ], "texture": "#string" }
+			}
+		},
+		{
+			"__comment": "PlaneZ9",
+			"from": [ 6.5, -3.5, 5.5 ],
+			"to": [ 9.5, -0.5, 5.501 ],
+			"faces": {
+				"north": { "uv": [ 0.5, 12, 3.5, 15 ], "texture": "#string" },
+				"south": { "uv": [ 0.5, 12, 3.5, 15 ], "texture": "#string" }
+			}
+		},
+		{
+			"__comment": "PlaneY10",
+			"from": [ 14, 8, 2 ],
+			"to": [ 16, 8.001, 16 ],
+			"faces": {
+				"down": { "uv": [ 14, 2, 16, 16 ], "texture": "#bottom" },
+				"up": { "uv": [ 14, 2, 16, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "PlaneY10",
+			"from": [ 0, 8, 0 ],
+			"to": [ 2, 8.001, 14 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 2, 14 ], "texture": "#bottom" },
+				"up": { "uv": [ 0, 0, 2, 14 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "PlaneY12",
+			"from": [ 0, 8, 14 ],
+			"to": [ 14, 8.001, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 14, 14, 16 ], "texture": "#bottom" },
+				"up": { "uv": [ 0, 14, 14, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "PlaneY12",
+			"from": [ 2, 8, 0 ],
+			"to": [ 16, 8.001, 2 ],
+			"faces": {
+				"down": { "uv": [ 2, 0, 16, 2 ], "texture": "#bottom" },
+				"up": { "uv": [ 2, 0, 16, 2 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "PlaneX2",
+			"from": [ 0, 6.5, 0 ],
+			"to": [ 0.001, 8, 16 ],
+			"faces": {
+				"west": { "uv": [ 0, 8, 16, 9.5 ], "texture": "#side" },
+				"east": { "uv": [ 0, 10.5, 16, 12 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "PlaneZ4",
+			"from": [ 0, 6.5, 0 ],
+			"to": [ 16, 8, 0.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 8, 16, 9.5 ], "texture": "#side" },
+				"south": { "uv": [ 0, 10.5, 16, 12 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "PlaneX2",
+			"from": [ 2, 8, 2 ],
+			"to": [ 2.001, 9, 14 ],
+			"faces": {
+				"west": { "uv": [ 2, 7, 14, 8 ], "texture": "#side" },
+				"east": { "uv": [ 2, 9.5, 14, 10.5 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "PlaneZ4",
+			"from": [ 2, 8, 2 ],
+			"to": [ 14, 9, 2.001 ],
+			"faces": {
+				"north": { "uv": [ 2, 7, 14, 8 ], "texture": "#side" },
+				"south": { "uv": [ 2, 9.5, 14, 10.5 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "Box18",
+			"from": [ 4, 9, 4 ],
+			"to": [ 12, 10, 12.5 ],
+			"faces": {
+				"down": { "uv": [ 3.5, 3.5, 12.5, 13 ], "texture": "#particle" },
+				"up": { "uv": [ 3.5, 3.5, 12.5, 13 ], "texture": "#particle" },
+				"north": { "uv": [ 3.5, 3.5, 12.5, 4.5 ], "texture": "#particle" },
+				"south": { "uv": [ 3.5, 3.5, 12.5, 4.5 ], "texture": "#particle" },
+				"west": { "uv": [ 3.5, 3.5, 12.5, 4.5 ], "texture": "#particle" },
+				"east": { "uv": [ 3.5, 3.5, 12.5, 4.5 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Box19",
+			"from": [ 6, 10, 6 ],
+			"to": [ 10, 11, 10 ],
+			"faces": {
+				"down": { "uv": [ 5.5, 5.5, 10.5, 10.5 ], "texture": "#particle" },
+				"up": { "uv": [ 5.5, 5.5, 10.5, 10.5 ], "texture": "#particle" },
+				"north": { "uv": [ 5.5, 4.5, 10.5, 5.5 ], "texture": "#particle" },
+				"south": { "uv": [ 5.5, 4.5, 10.5, 5.5 ], "texture": "#particle" },
+				"west": { "uv": [ 5.5, 4.5, 10.5, 5.5 ], "texture": "#particle" },
+				"east": { "uv": [ 5.5, 4.5, 10.5, 5.5 ], "texture": "#particle" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ -2, 3, -74 ],
+			"translation":  [ 2.7826, -2.782, 1.3913 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ -2, 3, -74 ],
+			"translation":  [ 2.7826, -2.782, 1.3913 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 0, -5 ],
+			"translation":  [ 1.3913, 1.3913, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 0, -5 ],
+			"translation":  [ 1.3913, 1.3913, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		},
+		"gui": {
+			"rotation":  [ 25, 135, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		},
+		"head": {
+			"rotation":  [ 6, 0, 0 ],
+			"translation":  [ 0, 6.3, 0 ],
+			"scale":  [ 1.7, 1.7, 1.7 ]
+		},
+		"ground": {
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"fixed": {
+			"rotation":  [ -90, 0, 0 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}

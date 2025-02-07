@@ -1,0 +1,49 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "items/extra/mystery",
+		"texture": "items/extra/mystery"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ6",
+			"from": [ 0, 0, 8 ],
+			"to": [ 16, 16, 8.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ -23, 0, 0 ],
+			"translation":  [ 0, 2.0869, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ -23, 0, 0 ],
+			"translation":  [ 0, 2.0869, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, -5, 16 ],
+			"translation":  [ 1.3912, 2.7826, -2.086 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, -5, 16 ],
+			"translation":  [ 1.3912, 2.7826, -2.086 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"gui": {
+			"translation":  [ 0.0005, 0, 0 ]
+		},
+		"head": {
+			"translation":  [ 0.0001, 11.825, 0 ]
+		},
+		"ground": {
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		}
+	}
+}

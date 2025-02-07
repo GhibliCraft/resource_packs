@@ -1,0 +1,66 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "entity/steve",
+		"texture": "entity/steve"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ4",
+			"from": [ 8.5, 0, 8 ],
+			"to": [ 12.5, 12, 8.001 ],
+			"rotation": { "origin": [ 8.5, 0, 8 ], "axis": "z", "angle": 0 },
+			"faces": {
+				"north": { "uv": [ 1, 5, 2, 8 ], "texture": "#texture" },
+				"south": { "uv": [ 1, 5, 2, 8 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneZ4",
+			"from": [ 3.5, 0, 8 ],
+			"to": [ 7.5, 12, 8.001 ],
+			"faces": {
+				"north": { "uv": [ 1, 5, 2, 8 ], "texture": "#texture" },
+				"south": { "uv": [ 1, 5, 2, 8 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 88, 0, 0 ],
+			"translation":  [ 0, 0.6956, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 88, 0, 0 ],
+			"translation":  [ 0, 0.6956, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, -5, 16 ],
+			"translation":  [ 5.5652, 2.7826, -2.086 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, -5, 16 ],
+			"translation":  [ 5.5652, 2.7826, -2.086 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"gui": {
+			"translation":  [ 0.0005, 3, 0 ],
+			"scale":  [ 1.5, 1.5, 1.5 ]
+		},
+		"head": {
+			"translation":  [ 0.0001, -34.07, -4.173 ],
+			"scale":  [ 1.7, 1.7, 1.7 ]
+		},
+		"ground": {
+			"translation":  [ 0, 1.3913, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 2.7826, 0 ],
+			"scale":  [ 1.5, 1.5, 1 ]
+		}
+	}
+}

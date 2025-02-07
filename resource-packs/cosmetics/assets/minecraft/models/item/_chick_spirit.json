@@ -1,0 +1,172 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "items/hats/chick_front",
+		"duck_side": "items/hats/chick_side",
+		"duck_top": "items/hats/chick_top",
+		"duck_leaf": "items/hats/chick_leaf"
+	},
+	"elements": [
+		{
+			"from": [ 3.5, 0, 3.5 ],
+			"to": [ 12.5, 11.5, 12.5 ],
+			"faces": {
+				"down": { "uv": [ 0.5, 0.5, 9.5, 9.5 ], "texture": "#duck_top" },
+				"up": { "uv": [ 0.5, 0.5, 9.5, 9.5 ], "texture": "#duck_top" },
+				"north": { "uv": [ 1, 4.5, 10, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 1, 4.5, 10, 16 ], "texture": "#duck_side" },
+				"west": { "uv": [ 1, 4.5, 10, 16 ], "texture": "#duck_side" },
+				"east": { "uv": [ 1, 4.5, 10, 16 ], "texture": "#duck_side" }
+			}
+		},
+		{
+			"from": [ 11, 3.5, 6.8125 ],
+			"to": [ 12.5, 10.5, 10.3125 ],
+			"rotation": { "origin": [ 11, 10.5, 6.8125 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 14.5, 11, 16, 14.5 ], "texture": "#duck_top" },
+				"up": { "uv": [ 14.5, 11, 16, 14.5 ], "texture": "#duck_top" },
+				"north": { "uv": [ 14.5, 4, 16, 11 ], "texture": "#duck_top" },
+				"south": { "uv": [ 14.5, 4, 16, 11 ], "texture": "#duck_top" },
+				"west": { "uv": [ 11, 4, 14.5, 11 ], "texture": "#duck_top" },
+				"east": { "uv": [ 11, 4, 14.5, 11 ], "texture": "#duck_top" }
+			}
+		},
+		{
+			"from": [ 4, 11.5, 4 ],
+			"to": [ 12, 14, 12 ],
+			"faces": {
+				"up": { "uv": [ 1, 1, 9, 9.5 ], "texture": "#duck_top" },
+				"north": { "uv": [ 1.5, 2, 9.5, 4.5 ], "texture": "#particle" },
+				"south": { "uv": [ 1.5, 2, 9.5, 4.5 ], "texture": "#duck_side" },
+				"west": { "uv": [ 1.5, 2, 10, 4.5 ], "texture": "#duck_side" },
+				"east": { "uv": [ 1.5, 2, 10, 4.5 ], "texture": "#duck_side" }
+			}
+		},
+		{
+			"from": [ 7, 12.5, 2.5 ],
+			"to": [ 9, 14, 4 ],
+			"faces": {
+				"down": { "uv": [ 14, 3.5, 12, 2 ], "texture": "#duck_top" },
+				"up": { "uv": [ 12, 0, 14, 1.5 ], "texture": "#duck_top" },
+				"north": { "uv": [ 4.5, 2, 6.5, 3.5 ], "texture": "#particle" },
+				"west": { "uv": [ 0, 2, 1.5, 3.5 ], "texture": "#duck_side" },
+				"east": { "uv": [ 0, 2, 1.5, 3.5 ], "texture": "#duck_side" }
+			}
+		},
+		{
+			"from": [ 6.5, 1.5, 13 ],
+			"to": [ 9.5, 4.5, 15 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 12, 3.5, 10 ], "texture": "#duck_top" },
+				"up": { "uv": [ 3.5, 10, 6.5, 12 ], "texture": "#duck_top" },
+				"south": { "uv": [ 9.5, 11.5, 12.5, 14.5 ], "texture": "#duck_side" },
+				"west": { "uv": [ 10.5, 11.5, 12.5, 14.5 ], "texture": "#duck_side" },
+				"east": { "uv": [ 10.5, 11.5, 12.5, 14.5 ], "texture": "#duck_side" }
+			}
+		},
+		{
+			"from": [ 3.5, 4, 6.9375 ],
+			"to": [ 5, 11, 10.4375 ],
+			"rotation": { "origin": [ 3.5, 11, 6.9375 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 14.5, 11, 16, 14.5 ], "texture": "#duck_top" },
+				"north": { "uv": [ 14.5, 4, 16, 11 ], "texture": "#duck_top" },
+				"south": { "uv": [ 14.5, 4, 16, 11 ], "texture": "#duck_top" },
+				"west": { "uv": [ 11, 4, 14.5, 11 ], "texture": "#duck_top" },
+				"east": { "uv": [ 11, 4, 14.5, 11 ], "texture": "#duck_top" }
+			}
+		},
+		{
+			"from": [ 4.5, 14, 4 ],
+			"to": [ 11.5, 15.5, 11.5 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 1, 8.5, 8.5 ], "texture": "#duck_top" },
+				"north": { "uv": [ 2, 0.5, 9, 2 ], "texture": "#particle" },
+				"south": { "uv": [ 2, 0.5, 9, 2 ], "texture": "#duck_side" },
+				"west": { "uv": [ 2, 0.5, 9.5, 2 ], "texture": "#duck_side" },
+				"east": { "uv": [ 2, 0.5, 9.5, 2 ], "texture": "#duck_side" }
+			}
+		},
+		{
+			"from": [ 3, 1, 3 ],
+			"to": [ 13, 8.5, 13 ],
+			"faces": {
+				"down": { "uv": [ 10, 10, 0, 0 ], "texture": "#duck_top" },
+				"up": { "uv": [ 0, 0, 10, 10 ], "texture": "#duck_top" },
+				"north": { "uv": [ 0.5, 7.5, 10.5, 15 ], "texture": "#particle" },
+				"south": { "uv": [ 0.5, 7.5, 10.5, 15 ], "texture": "#duck_side" },
+				"west": { "uv": [ 0.5, 7.5, 10.5, 15 ], "texture": "#duck_side" },
+				"east": { "uv": [ 0.5, 7.5, 10.5, 15 ], "texture": "#duck_side" }
+			}
+		},
+		{
+			"from": [ 4.5, 15.9375, 5 ],
+			"to": [ 11.5, 16, 11.5 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 8.5, 8.5, 2 ], "texture": "#duck_leaf" },
+				"up": { "uv": [ 1.5, 2, 8.5, 8.5 ], "texture": "#duck_leaf" }
+			}
+		},
+		{
+			"from": [ 5, 15.5, 5.5 ],
+			"to": [ 11, 16, 11 ],
+			"faces": {
+				"north": { "uv": [ 2.5, 0, 8.5, 0.5 ], "texture": "#particle" },
+				"south": { "uv": [ 3, 0, 8.5, 0.5 ], "texture": "#duck_side" },
+				"west": { "uv": [ 3, 0, 8.5, 0.5 ], "texture": "#duck_side" },
+				"east": { "uv": [ 3, 0, 8.5, 0.5 ], "texture": "#duck_side" }
+			}
+		},
+		{
+			"from": [ 6, 13, 3.5 ],
+			"to": [ 10, 13.5, 4 ],
+			"faces": {
+				"down": { "uv": [ 15, 3.5, 11, 3 ], "texture": "#duck_top" },
+				"up": { "uv": [ 11, 1, 15, 1.5 ], "texture": "#duck_top" },
+				"north": { "uv": [ 11, 1, 15, 1.5 ], "texture": "#duck_top" },
+				"west": { "uv": [ 11, 1, 11.5, 1.5 ], "texture": "#duck_top" },
+				"east": { "uv": [ 14.5, 1, 15, 1.5 ], "texture": "#duck_top" }
+			}
+		},
+		{
+			"from": [ 7.75, 16, 8.5 ],
+			"to": [ 8.25, 17, 9 ],
+			"faces": {
+				"up": { "uv": [ 4.5, 5.5, 5, 6 ], "texture": "#duck_leaf" },
+				"north": { "uv": [ 4.5, 3.5, 5, 4.5 ], "texture": "#duck_leaf" },
+				"south": { "uv": [ 4.5, 3.5, 5, 4.5 ], "texture": "#duck_leaf" },
+				"west": { "uv": [ 4.5, 3.5, 5, 4.5 ], "texture": "#duck_leaf" },
+				"east": { "uv": [ 4.5, 3.5, 5, 4.5 ], "texture": "#duck_leaf" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 62, 41, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 62, 41, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_righthand": {
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"firstperson_lefthand": {
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 135, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"head": {
+			"translation":  [ 0, -21, 0 ],
+			"scale":  [ 3.5, 3.5, 3.5 ]
+		},
+		"ground": {
+			"translation":  [ 0, 1.3913, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		}
+	}
+}
