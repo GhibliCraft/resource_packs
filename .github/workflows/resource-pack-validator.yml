@@ -13,11 +13,17 @@ jobs:
       - name: RESOURCE PACK VALIDATION - European
         uses: MrKinau/ResourcePackValidator@v1
         with:
-          resourcepack: resource-pack/european/
+          resourcepack: resource-packs/european/
           config: .github/workflows/config/resource-pack-validator.json
       
       - name: RESOURCE PACK VALIDATION - Japanese
         uses: MrKinau/ResourcePackValidator@v1
         with:
-          resourcepack: resource-pack/japanese/
+          resourcepack: resource-packs/japanese/
+          config: .github/workflows/config/resource-pack-validator.json
+
+      - name: RESOURCE PACK VALIDATION - Cosmetics
+        uses: MrKinau/ResourcePackValidator@v1
+        with:
+          resourcepack: resource-packs/cosmetics/
           config: .github/workflows/config/resource-pack-validator.json
