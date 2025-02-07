@@ -22,14 +22,15 @@
       "ModelTexturesExistsValidator": {
         "enabled": true,
         "logLevel": "WARN",
-        "ignore": []
+        "ignore": [
+            "resource-packs/european/assets/minecraft/models/item/stone_sword.json"
+        ]
       },
       "ModelOverridesExistsValidator": {
         "enabled": true,
         "logLevel": "ERROR",
         "ignore": [
-            "resource-packs/european/traincarts/*",
-            "resource-packs/european/assets/minecraft/models/item/stone_sword.json"
+            "resource-packs/european/traincarts/*"
         ]
       },
       "UnusedFileValidator": {
