@@ -1,39 +1,40 @@
 {
 "textures": {
-    "particle": "item/custom/cosmetics/spirit_royal_hat"
+    "main": "item/custom/cosmetics/spirit_royal_hat",
+    "particle": "#main"
 },
 "elements": [ 
 {
     "from": [ 6, 10, 6 ],
     "to": [ 10, 14, 10 ],
     "faces": {
-        "up":    { "uv": [ 6, 8, 10, 12 ], "texture": "#particle" },
-        "north": { "uv": [ 6, 4, 10, 8 ], "texture": "#particle" },
-        "south": { "uv": [ 2, 4, 6, 8 ], "texture": "#particle" },
-        "west":  { "uv": [ 10, 4, 14, 8 ], "texture": "#particle" },
-        "east":  { "uv": [ 14, 4, 10, 8 ], "texture": "#particle" }
+        "up":    { "uv": [ 6, 8, 10, 12 ], "texture": "#main" },
+        "north": { "uv": [ 6, 4, 10, 8 ], "texture": "#main" },
+        "south": { "uv": [ 2, 4, 6, 8 ], "texture": "#main" },
+        "west":  { "uv": [ 10, 4, 14, 8 ], "texture": "#main" },
+        "east":  { "uv": [ 14, 4, 10, 8 ], "texture": "#main" }
     }
 },
 {
     "from": [ 6.5, 14, 6 ],
     "to": [ 9.5, 17, 9.5 ],
     "faces": {
-        "up":    { "uv": [ 6.5, 8, 9.5, 11.5 ], "texture": "#particle" },
-        "north": { "uv": [ 6.5, 1, 9.5, 4 ], "texture": "#particle" },
-        "south": { "uv": [ 2.5, 1, 5.5, 4 ], "texture": "#particle" },
-        "west":  { "uv": [ 10, 1, 13.5, 4 ], "texture": "#particle" },
-        "east":  { "uv": [ 13.5, 1, 10, 4 ], "texture": "#particle" }
+        "up":    { "uv": [ 6.5, 8, 9.5, 11.5 ], "texture": "#main" },
+        "north": { "uv": [ 6.5, 1, 9.5, 4 ], "texture": "#main" },
+        "south": { "uv": [ 2.5, 1, 5.5, 4 ], "texture": "#main" },
+        "west":  { "uv": [ 10, 1, 13.5, 4 ], "texture": "#main" },
+        "east":  { "uv": [ 13.5, 1, 10, 4 ], "texture": "#main" }
     }
 },
 {
     "from": [ 7, 17, 6 ],
     "to": [ 9, 18, 9 ],
     "faces": {
-        "up":    { "uv": [ 7, 8, 9, 11 ], "texture": "#particle" },
-        "north": { "uv": [ 7, 0, 9, 1 ], "texture": "#particle" },
-        "south": { "uv": [ 3, 0, 5, 1 ], "texture": "#particle" },
-        "west":  { "uv": [ 10, 0, 13, 1 ], "texture": "#particle" },
-        "east":  { "uv": [ 13, 0, 10, 1 ], "texture": "#particle" }
+        "up":    { "uv": [ 7, 8, 9, 11 ], "texture": "#main" },
+        "north": { "uv": [ 7, 0, 9, 1 ], "texture": "#main" },
+        "south": { "uv": [ 3, 0, 5, 1 ], "texture": "#main" },
+        "west":  { "uv": [ 10, 0, 13, 1 ], "texture": "#main" },
+        "east":  { "uv": [ 13, 0, 10, 1 ], "texture": "#main" }
     }
 }
 ],

@@ -1,6 +1,7 @@
 {
 	"__comment": "Designed by Alanbecker with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
 	"textures": {
+		"main": "item/custom/cosmetics/fan",
 		"particle": "item/custom/cosmetics/fan"
 	},
 	"elements": [
@@ -9,8 +10,8 @@
 			"to": [ 12.5, 11, 8.0625 ],
 			"rotation": { "origin": [ -3.5, 11, 8 ], "axis": "z", "angle": 45 },
 			"faces": {
-				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" },
-				"south": { "uv": [ 16, 0, 0, 16 ], "texture": "#particle" }
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#main" },
+				"south": { "uv": [ 16, 0, 0, 16 ], "texture": "#main" }
 			}
 		}
 	],

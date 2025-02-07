@@ -2,7 +2,8 @@
 	"credit": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/custom/textures/bamboo/bamboo_leaves"
+		"main": "block/custom/textures/bamboo/bamboo_leaves",
+		"particle": "#main"
 	},
 	"elements": [
 		{
@@ -11,8 +12,8 @@
 			"to": [3.0625, 10.5, 21.5],
 			"rotation": {"angle": 45, "axis": "z", "origin": [3, 10.5, -2.5]},
 			"faces": {
-				"east": {"uv": [0, 0, 12, 12], "texture": "#particle"},
-				"west": {"uv": [0, 0, 12, 12], "texture": "#particle"}
+				"east": {"uv": [0, 0, 12, 12], "texture": "#main"},
+				"west": {"uv": [0, 0, 12, 12], "texture": "#main"}
 			}
 		},
 		{
@@ -21,8 +22,8 @@
 			"to": [9.5625, 10.5, 21.5],
 			"rotation": {"angle": -45, "axis": "z", "origin": [9.5, 10.5, -2.5]},
 			"faces": {
-				"east": {"uv": [0, 0, 12, 12], "texture": "#particle"},
-				"west": {"uv": [0, 0, 12, 12], "texture": "#particle"}
+				"east": {"uv": [0, 0, 12, 12], "texture": "#main"},
+				"west": {"uv": [0, 0, 12, 12], "texture": "#main"}
 			}
 		},
 		{
@@ -31,8 +32,8 @@
 			"to": [19, 10.1875, 6.875],
 			"rotation": {"angle": -45, "axis": "x", "origin": [-5, 10.1875, 6.8125]},
 			"faces": {
-				"north": {"uv": [0, 0, 12, 12], "texture": "#particle"},
-				"south": {"uv": [0, 0, 12, 12], "texture": "#particle"}
+				"north": {"uv": [0, 0, 12, 12], "texture": "#main"},
+				"south": {"uv": [0, 0, 12, 12], "texture": "#main"}
 			}
 		},
 		{
@@ -41,8 +42,8 @@
 			"to": [18.5, 10.5, 12.5625],
 			"rotation": {"angle": 45, "axis": "x", "origin": [-5.5, 10.5, 12.5]},
 			"faces": {
-				"north": {"uv": [0, 0, 12, 12], "texture": "#particle"},
-				"south": {"uv": [0, 0, 12, 12], "texture": "#particle"}
+				"north": {"uv": [0, 0, 12, 12], "texture": "#main"},
+				"south": {"uv": [0, 0, 12, 12], "texture": "#main"}
 			}
 		}
 	],
