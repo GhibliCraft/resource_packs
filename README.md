@@ -1,4 +1,4 @@
-<!--- Add a cool banner with GhibliCraft title here -->
+![Kitchen Scene](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Kitchen.png)
 
 # GhibliCraft Resource Packs  
 
@@ -54,6 +54,23 @@ Want to help improve the packs? You can:
 
 - **Report Issues**: Submit bugs or feature requests in the **[Issues](https://github.com/GhibliCraft/resource_packs/issues)** tab.  
 - **Pull Requests**: Have improvements? Fork the repo and submit a **pull request**!  
+
+
+## 🏠 Screenshots
+
+![Spirited Away - Bath House](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Bath_House_1.png)
+
+![Howl's Moving Castle - Palace Gardens](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Garden_2.png)
+
+![Howl's Moving Castle - Market Chipping](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Howls_Moving_Castle_general.png)
+
+![Howl's Moving Castle - Meadow](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Meadow.png)
+
+![Spirited Away - Yubaba](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Yubaba.png)
+
+![GhibliCraft - Lobby](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Lobby_3.png)
+
+
 
 ## 📜 License  
 
