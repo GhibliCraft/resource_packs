@@ -21,7 +21,7 @@
       },
       "ModelTexturesExistsValidator": {
         "enabled": true,
-        "logLevel": "ERROR",
+        "logLevel": "WARN",
         "ignore": []
       },
       "ModelOverridesExistsValidator": {
@@ -31,7 +31,7 @@
       },
       "UnusedFileValidator": {
         "enabled": true,
-        "logLevel": "ERROR",
+        "logLevel": "WARN",
         "ignore": []
       },
       "TextureIsNotCorruptedValidator": {
@@ -50,7 +50,7 @@
         "ignore": []
       },
       "ModelRequiresOverlayOverrideValidator": {
-        "enabled": false,
+        "enabled": true,
         "logLevel": "ERROR",
         "required": []
       }
