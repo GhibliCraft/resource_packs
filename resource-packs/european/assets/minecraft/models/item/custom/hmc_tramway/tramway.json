@@ -1,6 +1,5 @@
 {
 	"credit": "Author: Céleste V. (Slaker) on Blockbench!",
-	"ambientocclusion": false,
 	
 	"textures": {
 		"0": "block/gray_terracotta",
@@ -19,7 +18,7 @@
 		"13": "block/spruce_planks",
 		"14": "block/smooth_stone",
 		"15": "block/chiseled_stone_bricks",
-		"16": "block/valve_wheel",
+		"16": "block/custom/textures/red_stained_glass_pane/valve_wheel",
 		"17": "block/green_stained_glass_pane_top",
 		"18": "block/green_stained_glass",
 		"19": "block/yellow_wool",
