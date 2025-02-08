@@ -1,6 +1,6 @@
 {
     "parent": "block/custom_template/howl_flowers",
     "textures": {
-        "particle": "block/dandelion"
+        "main_child": "block/dandelion"
     }
 }

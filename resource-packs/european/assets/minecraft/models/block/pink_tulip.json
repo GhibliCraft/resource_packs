@@ -1,6 +1,6 @@
 {
     "parent": "block/custom_template/howl_flowers",
     "textures": {
-        "particle": "block/pink_tulip"
+        "main_child": "block/pink_tulip"
     }
 }
