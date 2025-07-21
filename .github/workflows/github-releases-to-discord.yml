@@ -5,7 +5,7 @@ on:
     types: [published]
 
 jobs:
-  discord-notification:
+  github-releases-to-discord:
     runs-on: ubuntu-latest
     steps:
       - name: Send Discord Notification
