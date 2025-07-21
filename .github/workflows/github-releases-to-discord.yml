@@ -1,3 +1,5 @@
+name: Notify RP Channel
+
 on:
   release:
     types: [published]
