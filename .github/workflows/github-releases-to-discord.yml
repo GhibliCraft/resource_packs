@@ -18,3 +18,4 @@ jobs:
           content: ""
           footer_title: "GhibliCraft - Releases"
           reduce_headings: true
+          footer_timestamp: true
