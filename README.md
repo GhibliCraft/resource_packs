@@ -1,82 +1,79 @@
-![Kitchen Scene](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Kitchen.png)
+# GhibliCraft Resource Packs
 
-# GhibliCraft Resource Packs  
+GhibliCraft is an unofficial fan project for Minecraft.
 
-Welcome to **GhibliCraft**, a collection of **high-quality Minecraft resource packs** inspired by the enchanting aesthetics of Studio Ghibli. These packs transform the Minecraft experience with **handcrafted textures, custom sounds, and immersive atmosphere changes**.  
+This repository contains resource packs created for use with the GhibliCraft project. It is not affiliated with, endorsed by, sponsored by, or approved by Studio Ghibli or any related rights holders. It is also not affiliated with, endorsed by, sponsored by, or approved by Mojang or Microsoft.
 
-## 📦 Available Resource Packs  
+NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
 
-Each pack offers a unique artistic direction, enhancing different aspects of the game:  
+## Overview
 
-- **🎨 European Pack** – `resource-pack/european/`  
-  - Inspired by European landscapes
-  - Designed from the movies: Howl's Moving Castle, Kiki's Delivery Service...
+This repository contains custom resource packs used by the GhibliCraft project.
 
-- **🏯 Japanese Pack** – `resource-pack/japanese/`  
-  - Captures the beauty of traditional and modern Japan
-  - Designed from the movies: Spirited Away, My Neighbour Totoro, Princess Mononoke...  
+The packs are intended to support the visual identity and atmosphere of the project across different environments and gameplay contexts.
 
-- **🧢 Cosmetics Pack** – `resource-pack/cosmetics/`  
-  - Contains all our **custom models and unique cosmetic items** to personalize your experience! *(needs to be updated though)*
+## Available Packs
 
-## 📥 Installation Guide  
+### European Pack
+Path: `resource-pack/european/`
 
-1. **Download**: Get the latest `.zip` file from the **[Releases](https://github.com/GhibliCraft/resource_packs/releases)** section.  
-2. **Locate Your Resourcepacks Folder**:  
-   - **Windows**: `%appdata%\.minecraft\resourcepacks`  
-   - **macOS**: `~/Library/Application Support/minecraft/resourcepacks`  
-   - **Linux**: `~/.minecraft/resourcepacks`  
-3. **Move the File**: Place the downloaded `.zip` file into the `resourcepacks` folder.  
-4. **Activate in Minecraft**:  
-   - Launch the game.  
-   - Go to `Settings > Resource Packs`.  
-   - Enable your chosen GhibliCraft pack.  
+A resource pack focused on architecture, landscapes, and environmental details inspired by European settings.
 
-## 🛠️ Compatibility  
+### Japanese Pack
+Path: `resource-pack/japanese/`
 
-- **Versioning System**:  
-  - Each release is tied to a **specific Minecraft version** (e.g., `v1.20.1`).  
-  - Minor updates use **sub-versions** (e.g., `v1.20.1-1`, `v1.20.1-2`).  
-- Always use the **correct pack version** for the best experience.  
-- Check **[Releases](https://github.com/GhibliCraft/resource_packs/releases)** for version-specific downloads.  
+A resource pack focused on architecture, landscapes, and environmental details inspired by Japanese settings.
 
-## ✨ Features  
+### Cosmetics Pack
+Path: `resource-pack/cosmetics/`
 
-✔ **Handcrafted Textures** – Custom-made visuals inspired by Ghibli’s artistic style.\
-✔ **Movie-Inspired Designs** – Blocks, items, and UI elements carefully crafted from Ghibli classics.\
-✔ **Authentic Atmosphere** – Enhanced colors and details to bring the world to life.\
-✔ **Custom Models & Cosmetics** – Unique 3D models and decorative elements to personalize your experience.
+A resource pack containing custom models and cosmetic assets used by the project. (out of date)
 
+## Installation
 
-## 🤝 Contributing  
+1. Download the appropriate `.zip` file from the Releases section.
+2. Open your Minecraft `resourcepacks` folder.
+   - Windows: `%appdata%\.minecraft\resourcepacks`
+   - macOS: `~/Library/Application Support/minecraft/resourcepacks`
+   - Linux: `~/.minecraft/resourcepacks`
+3. Move the downloaded file into the `resourcepacks` folder.
+4. Launch Minecraft and enable the pack in the Resource Packs menu.
 
-Want to help improve the packs? You can:  
+## Compatibility
 
-- **Report Issues**: Submit bugs or feature requests in the **[Issues](https://github.com/GhibliCraft/resource_packs/issues)** tab.  
-- **Pull Requests**: Have improvements? Fork the repo and submit a **pull request**!  
+- Each release is tied to a specific Minecraft version (e.g., `v1.20.1`).  
+- Minor updates use sub-versions (e.g., `v1.20.1-1`, `v1.20.1-2`).  
+- Always use the correct pack version for the best experience.  
+- Check [Releases](https://github.com/GhibliCraft/resource_packs/releases) for version-specific downloads.
+- 
+## Contributing
 
+This repository is maintained for and by the GhibliCraft project.
 
-## 🏠 Screenshots
+If you would like to contribute, fork the project and submit a pull request.
 
-![Spirited Away - Bath House](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Bath_House_1.png)
+By contributing to this repository, you agree that your submissions may be reviewed, modified, and used by the project maintainers for the project.
 
-![Howl's Moving Castle - Palace Gardens](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Garden_2.png)
+## Screenshots
 
-![Howl's Moving Castle - Market Chipping](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Howls_Moving_Castle_general.png)
+![Bath House](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Bath_House_1.png)
 
-![Howl's Moving Castle - Meadow](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Meadow.png)
+![Palace Gardens](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Garden_2.png)
 
-![Spirited Away - Yubaba](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Yubaba.png)
+![Market Chipping](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Howls_Moving_Castle_general.png)
+
+![Meadow](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Meadow.png)
 
 ![GhibliCraft - Lobby](https://github.com/GhibliCraft/resource_packs/blob/main/screenshots/Lobby_3.png)
 
+## Rights and Use
 
+All rights reserved unless otherwise stated.
 
-## 📜 License  
+No permission is granted to copy, redistribute, modify, republish, commercialize, or create derivative works from the contents of this repository without prior written permission from the project maintainers.
 
-These resource packs are **free for personal use** but cannot be redistributed or modified for commercial purposes. See the **[LICENSE](https://github.com/GhibliCraft/resource_packs/blob/main/LICENSE)** for details.  
+Any third-party names, titles, characters, settings, or other intellectual property referenced by the project remain the property of their respective rights holders.
 
----
+## Contact
 
-**Thank you for supporting GhibliCraft!** ✨ Stay tuned for updates and new releases!  
-
+For project-related questions, please contact the GhibliCraft team through the appropriate project channels.
