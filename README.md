@@ -1,11 +1,5 @@
 # GhibliCraft Resource Packs
 
-GhibliCraft is an unofficial fan project for Minecraft.
-
-This repository contains resource packs created for use with the GhibliCraft project. It is not affiliated with, endorsed by, sponsored by, or approved by Studio Ghibli or any related rights holders. It is also not affiliated with, endorsed by, sponsored by, or approved by Mojang or Microsoft.
-
-NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
-
 ## Overview
 
 This repository contains custom resource packs used by the GhibliCraft project.
@@ -73,6 +67,12 @@ All rights reserved unless otherwise stated.
 No permission is granted to copy, redistribute, modify, republish, commercialize, or create derivative works from the contents of this repository without prior written permission from the project maintainers.
 
 Any third-party names, titles, characters, settings, or other intellectual property referenced by the project remain the property of their respective rights holders.
+
+GhibliCraft is an unofficial fan project for Minecraft.
+
+This repository contains resource packs created for use with the GhibliCraft project. It is not affiliated with, endorsed by, sponsored by, or approved by Studio Ghibli or any related rights holders. It is also not affiliated with, endorsed by, sponsored by, or approved by Mojang or Microsoft.
+
+NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
 
 ## Contact
 
