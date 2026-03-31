@@ -39,7 +39,7 @@ A resource pack containing custom models and cosmetic assets used by the project
 - Minor updates use sub-versions (e.g., `v1.20.1-1`, `v1.20.1-2`).  
 - Always use the correct pack version for the best experience.  
 - Check [Releases](https://github.com/GhibliCraft/resource_packs/releases) for version-specific downloads.
-- 
+  
 ## Contributing
 
 This repository is maintained for and by the GhibliCraft project.
