@@ -1,6 +1,7 @@
 {
-  "pack": {
-    "pack_format": 15,
-    "description": "§9@§r §b§lGhibli§r§9Craft§r\n§b§6European§r # Main [15.2.0]"
-  }
+    "pack": {
+        "min_format": 97,
+        "max_format": 97,
+        "description": "\u00a79@\u00a7r \u00a7b\u00a7lGhibli\u00a7r\u00a79Craft\u00a7r\n\u00a7b\u00a76European\u00a7r # Main [15.2.0]"
+    }
 }
