@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:damage",
+    "normalize": true,
+    "entries": [
+      {
+        "threshold": 0.00763358778626,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/custom/hmc_tramway/tramway"
+        }
+      },
+      {
+        "threshold": 0.015267175572519,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stone_sword"
+        }
+      },
+      {
+        "threshold": 0.022900763358779,
+        "model": {
+          "type": "minecraft:model",
+          "model": "traincarts:hmc_tramway/tramway"
+        }
+      },
+      {
+        "threshold": 0.030534351145038,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stone_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/stone_sword"
+    }
+  }
+}
