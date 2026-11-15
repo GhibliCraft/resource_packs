@@ -1,10 +1,7 @@
 {
   "variants": {
-    "level\u003d0": {
+    "": {
       "model": "block/cauldron"
-    },
-    "level\u003d3": {
-      "model": "block/water_cauldron_full"
     }
   }
 }

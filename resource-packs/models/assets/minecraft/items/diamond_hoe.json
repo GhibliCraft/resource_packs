@@ -1,0 +1,412 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:damage",
+    "normalize": true,
+    "entries": [
+      {
+        "threshold": 0.000640614990391,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/fan"
+        }
+      },
+      {
+        "threshold": 0.001281229980782,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/spirit_royal_hat"
+        }
+      },
+      {
+        "threshold": 0.001921844971172,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/spirit_mask"
+        }
+      },
+      {
+        "threshold": 0.002562459961563,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/spirit_chick"
+        }
+      },
+      {
+        "threshold": 0.003203074951954,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/spirit_radish"
+        }
+      },
+      {
+        "threshold": 0.003843689942345,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/frog_man"
+        }
+      },
+      {
+        "threshold": 0.004484304932735,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/totoro"
+        }
+      },
+      {
+        "threshold": 0.005124919923126,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/kiki_bow"
+        }
+      },
+      {
+        "threshold": 0.005765534913517,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/noface_mask"
+        }
+      },
+      {
+        "threshold": 0.006406149903908,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/nausicaa_mask"
+        }
+      },
+      {
+        "threshold": 0.007046764894299,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/ashitaka_hood"
+        }
+      },
+      {
+        "threshold": 0.007687379884689,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/mononoke_mask"
+        }
+      },
+      {
+        "threshold": 0.00832799487508,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/straw_hat"
+        }
+      },
+      {
+        "threshold": 0.008968609865471,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/patsu_hat"
+        }
+      },
+      {
+        "threshold": 0.009609224855862,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/totoro_umbrella"
+        }
+      },
+      {
+        "threshold": 0.010249839846252,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/teto"
+        }
+      },
+      {
+        "threshold": 0.010890454836643,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/totoro_white"
+        }
+      },
+      {
+        "threshold": 0.011531069827034,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/totoro_blue"
+        }
+      },
+      {
+        "threshold": 0.012171684817425,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/kodama"
+        }
+      },
+      {
+        "threshold": 0.012812299807816,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/jiji"
+        }
+      },
+      {
+        "threshold": 0.013452914798206,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/mei_hat"
+        }
+      },
+      {
+        "threshold": 0.014093529788597,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/sophie_hat"
+        }
+      },
+      {
+        "threshold": 0.014734144778988,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/leaf_hat"
+        }
+      },
+      {
+        "threshold": 0.015374759769379,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/leaf_umbrella"
+        }
+      },
+      {
+        "threshold": 0.016015374759769,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/rat_bird"
+        }
+      },
+      {
+        "threshold": 0.01665598975016,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/calcifer"
+        }
+      },
+      {
+        "threshold": 0.018577834721332,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/umbrella_white"
+        }
+      },
+      {
+        "threshold": 0.019859064702114,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/soldier_green"
+        }
+      },
+      {
+        "threshold": 0.020499679692505,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/soldier_blue"
+        }
+      },
+      {
+        "threshold": 0.021140294682896,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/rifle"
+        }
+      },
+      {
+        "threshold": 0.021780909673286,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/top_hat_black"
+        }
+      },
+      {
+        "threshold": 0.022421524663677,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/top_hat_white"
+        }
+      },
+      {
+        "threshold": 0.023062139654068,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/cane"
+        }
+      },
+      {
+        "threshold": 0.023702754644459,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/bowler_hat"
+        }
+      },
+      {
+        "threshold": 0.024343369634849,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/ivy_cap"
+        }
+      },
+      {
+        "threshold": 0.026265214606022,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/oni_horns"
+        }
+      },
+      {
+        "threshold": 0.026905829596413,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/kanta_hat"
+        }
+      },
+      {
+        "threshold": 0.028187059577194,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/towel"
+        }
+      },
+      {
+        "threshold": 0.028827674567585,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/kamaji_face"
+        }
+      },
+      {
+        "threshold": 0.029468289557976,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/rice_hat"
+        }
+      },
+      {
+        "threshold": 0.030108904548366,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/violin"
+        }
+      },
+      {
+        "threshold": 0.030749519538757,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/cello"
+        }
+      },
+      {
+        "threshold": 0.031390134529148,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/witch_hat"
+        }
+      },
+      {
+        "threshold": 0.032030749519539,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/witch_broom"
+        }
+      },
+      {
+        "threshold": 0.03267136450993,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/rat_bird_flying"
+        }
+      },
+      {
+        "threshold": 0.03331197950032,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/turnip_head"
+        }
+      },
+      {
+        "threshold": 0.033952594490711,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/sootball"
+        }
+      },
+      {
+        "threshold": 0.034593209481102,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:character/yubaba"
+        }
+      },
+      {
+        "threshold": 0.035233824471493,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/sa_car"
+        }
+      },
+      {
+        "threshold": 0.035874439461883,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/ponyo_bucket"
+        }
+      },
+      {
+        "threshold": 0.036515054452274,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/ponyo_boat"
+        }
+      },
+      {
+        "threshold": 0.037155669442665,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:character/dancing_star"
+        }
+      },
+      {
+        "threshold": 0.039718129404228,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/servant_headdress"
+        }
+      },
+      {
+        "threshold": 0.040358744394619,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/openbook"
+        }
+      },
+      {
+        "threshold": 0.04099935938501,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/howls_deadbolt"
+        }
+      },
+      {
+        "threshold": 0.0416399743754,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:cosmetic/kds/kiki_radio/main"
+        }
+      },
+      {
+        "threshold": 0.042280589365791,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond_hoe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_hoe"
+    }
+  }
+}

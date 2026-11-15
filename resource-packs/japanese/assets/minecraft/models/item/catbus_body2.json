@@ -1,0 +1,96 @@
+{
+  "__comment": "Designed_by_Alanbecker_with_BDcraft_Cubik_PRO_0.96_Beta_-_http://bdcraft.net",
+  "textures": {
+    "particle": "block/catbus_body",
+    "texture": "block/catbus_body2"
+  },
+  "elements": [
+    {
+      "from": [
+        -16,
+        0,
+        -4
+      ],
+      "to": [
+        32,
+        24,
+        20
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            7,
+            14,
+            14
+          ],
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            14,
+            7
+          ],
+          "texture": "#texture"
+        },
+        "north": {
+          "uv": [
+            14,
+            0,
+            0,
+            7
+          ],
+          "texture": "#particle"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            14,
+            7
+          ],
+          "texture": "#particle"
+        },
+        "west": {
+          "uv": [
+            0,
+            7,
+            7,
+            14
+          ],
+          "texture": "#particle"
+        },
+        "east": {
+          "uv": [
+            7,
+            7,
+            14,
+            14
+          ],
+          "texture": "#particle"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -73.5
+      ],
+      "scale": [
+        3.99,
+        3.99,
+        3.99
+      ]
+    }
+  }
+}

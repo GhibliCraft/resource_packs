@@ -1,7 +1,0 @@
-{
-	"parent": "item/_tophat_black",
-	"textures": {
-		"particle": "items/hats/tophat_white_top",
-		"texture": "items/hats/tophat_white_side"
-	}
-}
