@@ -18,10 +18,10 @@ Path: `resource-pack/japanese/`
 
 A resource pack focused on architecture, landscapes, and environmental details inspired by Japanese settings.
 
-### Cosmetics Pack
-Path: `resource-pack/cosmetics/`
+### Models Pack
+Path: `resource-pack/models/`
 
-A resource pack containing custom models and cosmetic assets used by the project. (out of date)
+A resource pack containing all custom item-damage based models and cosmetic assets used by the project.
 
 ## Installation
 
