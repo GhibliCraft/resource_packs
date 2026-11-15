@@ -13,17 +13,14 @@ jobs:
       - name: RESOURCE PACK VALIDATION - European
         uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
-          resourcepack: resource-packs/european/
-          config: .github/workflows/config/resource-pack-validator.json
+          args: -rp resource-packs/european/ -config .github/workflows/config/resource-pack-validator.json
       
       - name: RESOURCE PACK VALIDATION - Japanese
         uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
-          resourcepack: resource-packs/japanese/
-          config: .github/workflows/config/resource-pack-validator.json
+          args: -rp resource-packs/japanese/ -config .github/workflows/config/resource-pack-validator.json
 
       - name: RESOURCE PACK VALIDATION - Models
         uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
-          resourcepack: resource-packs/models/
-          config: .github/workflows/config/resource-pack-validator.json
+          args: -rp resource-packs/models/ -config .github/workflows/config/resource-pack-validator.json
