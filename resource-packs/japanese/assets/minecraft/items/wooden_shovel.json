@@ -1,0 +1,83 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:damage",
+    "normalize": true,
+    "entries": [
+      {
+        "threshold": 0.117,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_body"
+        }
+      },
+      {
+        "threshold": 0.133,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_body2"
+        }
+      },
+      {
+        "threshold": 0.15,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_tail"
+        }
+      },
+      {
+        "threshold": 0.167,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_head"
+        }
+      },
+      {
+        "threshold": 0.183,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_leg_l"
+        }
+      },
+      {
+        "threshold": 0.217,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_leg_r"
+        }
+      },
+      {
+        "threshold": 0.233,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_open1"
+        }
+      },
+      {
+        "threshold": 0.25,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_open2"
+        }
+      },
+      {
+        "threshold": 0.267,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_open3"
+        }
+      },
+      {
+        "threshold": 0.283,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/catbus_open4"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wooden_shovel"
+    }
+  }
+}

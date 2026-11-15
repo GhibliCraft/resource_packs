@@ -1,0 +1,154 @@
+{
+  "__comment": "Designed_by_Alanbecker_with_BDcraft_Cubik_PRO_0.96_Beta_-_http://bdcraft.net",
+  "textures": {
+    "particle": "block/catbus_body",
+    "texture": "block/catbus_body2",
+    "open": "block/catbus_open1"
+  },
+  "elements": [
+    {
+      "from": [
+        -16,
+        0,
+        -4
+      ],
+      "to": [
+        32,
+        24,
+        20
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            7,
+            14,
+            14
+          ],
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            14,
+            7
+          ],
+          "texture": "#texture"
+        },
+        "north": {
+          "uv": [
+            14,
+            0,
+            0,
+            7
+          ],
+          "texture": "#particle"
+        },
+        "west": {
+          "uv": [
+            0,
+            7,
+            7,
+            14
+          ],
+          "texture": "#particle"
+        },
+        "east": {
+          "uv": [
+            7,
+            7,
+            14,
+            14
+          ],
+          "texture": "#particle"
+        }
+      }
+    },
+    {
+      "__comment": "PlaneZ2",
+      "from": [
+        8,
+        0,
+        20
+      ],
+      "to": [
+        32,
+        24,
+        20.001
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            0,
+            7,
+            7
+          ],
+          "texture": "#particle"
+        },
+        "south": {
+          "uv": [
+            7,
+            0,
+            14,
+            7
+          ],
+          "texture": "#particle"
+        }
+      }
+    },
+    {
+      "__comment": "PlaneZ2",
+      "from": [
+        -16,
+        0,
+        20
+      ],
+      "to": [
+        8,
+        24,
+        20.001
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            0,
+            14
+          ],
+          "texture": "#open"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            14,
+            14
+          ],
+          "texture": "#open"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        4,
+        4,
+        4
+      ]
+    }
+  }
+}

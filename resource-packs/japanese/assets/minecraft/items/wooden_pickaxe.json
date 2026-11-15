@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:damage",
+    "normalize": true,
+    "entries": [
+      {
+        "threshold": 0.05,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ghost_normal"
+        }
+      },
+      {
+        "threshold": 0.0667,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ghost_tall"
+        }
+      },
+      {
+        "threshold": 0.0833,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ghost_short"
+        }
+      },
+      {
+        "threshold": 0.1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ghost_long"
+        }
+      },
+      {
+        "threshold": 0.11667,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/spirit_potpan"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wooden_pickaxe"
+    }
+  }
+}
