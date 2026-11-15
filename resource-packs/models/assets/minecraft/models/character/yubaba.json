@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by AnJine with Cubik Studio - https://cubik.studio",
+	"parent": "character/template_yubaba_sisters",
+	"textures": {
+		"still": "block/custom/characters/yubaba/still",
+		"animated": "block/custom/characters/yubaba/animated"
+	}
+}

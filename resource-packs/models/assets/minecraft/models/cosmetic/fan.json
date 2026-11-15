@@ -1,0 +1,54 @@
+{
+	"__comment": "Designed by Alanbecker with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
+	"textures": {
+		"particle": "item/custom/cosmetics/fan"
+	},
+	"elements": [
+		{
+			"from": [ -3.5, -5, 8 ],
+			"to": [ 12.5, 11, 8.0625 ],
+			"rotation": { "origin": [ -3.5, 11, 8 ], "axis": "z", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" },
+				"south": { "uv": [ 16, 0, 0, 16 ], "texture": "#particle" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 0, 0, -15 ],
+			"translation":  [ 2, 4, 0.5 ],
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 0, 0, -15 ],
+			"translation":  [ 2, 4, 0.5 ],
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 0, 15 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.4, 0.4, 0.6 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 0, 15 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"head": {
+			"translation":  [ 0, 9.7386, 0 ]
+		},
+		"ground": {
+			"rotation":  [ 90, 0, 0 ],
+			"translation":  [ 0, -1.391, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 0, -0.5 ],
+			"scale":  [ 1.25, 1.25, 1.25 ]
+		}
+	}
+}

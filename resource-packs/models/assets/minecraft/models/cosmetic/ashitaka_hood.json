@@ -1,0 +1,109 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "item/custom/cosmetics/ashitaka_hood"
+	},
+	"elements": [
+		{
+			"__comment": "pyramid",
+			"from": [ 2.25, 10, -0.5 ],
+			"to": [ 13.75, 18.5, 8 ],
+			"rotation": { "origin": [ 2.25, 10, 8 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"up": { "uv": [ 6, 11.5, 0, 16 ], "texture": "#particle" },
+				"north": { "uv": [ 6, 7, 0, 11.5 ], "texture": "#particle" },
+				"west": { "uv": [ 6, 11.5, 10.5, 16 ], "texture": "#particle", "rotation": 270 },
+				"east": { "uv": [ 6, 11.5, 10.5, 16 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "left",
+			"from": [ 14, -4, 2 ],
+			"to": [ 14.001, 16, 14 ],
+			"faces": {
+				"west": { "uv": [ 6, 0, 12, 10 ], "texture": "#particle" },
+				"east": { "uv": [ 12, 0, 6, 10 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "right",
+			"from": [ 2, -4, 2 ],
+			"to": [ 2.001, 16, 14 ],
+			"faces": {
+				"west": { "uv": [ 6, 0, 12, 10 ], "texture": "#particle" },
+				"east": { "uv": [ 12, 0, 6, 10 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "back",
+			"from": [ 8, -4, 14 ],
+			"to": [ 14, 16, 14.001 ],
+			"faces": {
+				"north": { "uv": [ 12, 0, 15, 10 ], "texture": "#particle" },
+				"south": { "uv": [ 15, 0, 12, 10 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "front",
+			"from": [ 2, 4, 2 ],
+			"to": [ 14, 16, 2.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 6, 6 ], "texture": "#particle" },
+				"south": { "uv": [ 0, 0, 6, 6 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "back",
+			"from": [ 2, -4, 14 ],
+			"to": [ 8, 16, 14.001 ],
+			"faces": {
+				"north": { "uv": [ 15, 0, 12, 10 ], "texture": "#particle" },
+				"south": { "uv": [ 12, 0, 15, 10 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "top",
+			"from": [ 2, 16, 2 ],
+			"to": [ 14, 16.001, 14 ],
+			"faces": {
+				"down": { "uv": [ 6, 11.5, 10.5, 16 ], "texture": "#particle" },
+				"up": { "uv": [ 6, 11.5, 10.5, 16 ], "texture": "#particle" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 60, 0, 0 ],
+			"translation":  [ 0, -4.868, -5.565 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 60, 0, 0 ],
+			"translation":  [ 0, -4.868, -5.565 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, -180, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, -180, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 135, 0 ],
+			"translation":  [ 0, -2.086, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		},
+		"head": {
+			"translation":  [ 0, -2, 0 ],
+			"scale":  [ 1.25, 1.25, 1.25 ]
+		},
+		"ground": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"translation":  [ 0, -4.173, 0 ]
+		}
+	}
+}

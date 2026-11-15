@@ -1,0 +1,87 @@
+{
+	"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "item/custom/cosmetics/spirit_mask"
+	},
+	"elements": [
+		{
+			"from": [ 6, 4, 5.5 ],
+			"to": [ 10, 10, 6 ],
+			"faces": {
+				"down": { "uv": [ 6, 14, 0.5, 14.5 ], "texture": "#particle" },
+				"north": { "uv": [ 0.5, 6, 6, 14 ], "texture": "#particle" },
+				"south": { "uv": [ 6, 6, 11.5, 14 ], "texture": "#particle" },
+				"west": { "uv": [ 0, 6, 0.5, 14 ], "texture": "#particle" },
+				"east": { "uv": [ 0, 6, 0.5, 14 ], "texture": "#particle" }
+			}
+		},
+		{
+			"from": [ 6, 10, 5.5 ],
+			"to": [ 10, 12, 9.5 ],
+			"faces": {
+				"up": { "uv": [ 8, 0, 12, 4 ], "texture": "#particle" },
+				"north": { "uv": [ 0, 0, 4, 2 ], "texture": "#particle" },
+				"south": { "uv": [ 0, 2, 4, 4 ], "texture": "#particle" },
+				"west": { "uv": [ 4, 0, 8, 2 ], "texture": "#particle" },
+				"east": { "uv": [ 4, 0, 8, 2 ], "texture": "#particle" }
+			}
+		},
+		{
+			"from": [ 7, 12, 7.5 ],
+			"to": [ 9, 14, 9.5 ],
+			"faces": {
+				"up": { "uv": [ 0, 4, 2, 6 ], "texture": "#particle" },
+				"north": { "uv": [ 2, 4, 4, 6 ], "texture": "#particle" },
+				"south": { "uv": [ 2, 4, 4, 6 ], "texture": "#particle" },
+				"west": { "uv": [ 2, 4, 4, 6 ], "texture": "#particle" },
+				"east": { "uv": [ 2, 4, 4, 6 ], "texture": "#particle" }
+			}
+		},
+		{
+			"from": [ 8.5, 12, 9 ],
+			"to": [ 8.5625, 13, 13 ],
+			"rotation": { "origin": [ 8.5, 12, 9 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"west": { "uv": [ 4, 2, 8, 3 ], "texture": "#particle" },
+				"east": { "uv": [ 8, 2, 4, 3 ], "texture": "#particle" }
+			}
+		},
+		{
+			"from": [ 7.5, 12, 9 ],
+			"to": [ 7.5625, 13, 13 ],
+			"rotation": { "origin": [ 7.5, 12, 9 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"west": { "uv": [ 4, 2, 8, 3 ], "texture": "#particle" },
+				"east": { "uv": [ 8, 2, 4, 3 ], "texture": "#particle" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 60, 18, 0 ],
+			"translation":  [ 0, -1.391, 0 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 60, 18, 0 ],
+			"translation":  [ 0, -1.391, 0 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 135, 0 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		},
+		"head": {
+			"scale":  [ 3, 3, 3 ]
+		},
+		"fixed": {
+			"scale":  [ 2.25, 2.25, 2.25 ]
+		}
+	}
+}

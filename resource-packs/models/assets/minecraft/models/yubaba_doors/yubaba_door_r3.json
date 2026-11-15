@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"Handle": "block/custom/textures/yubaba_doors/yubaba_door_handle",
+		"particle": "block/custom/textures/yubaba_doors/yubaba_door_03",
+		"texture": "block/custom/textures/yubaba_doors/yubaba_door_03"
+	},
+	"elements": [
+		{
+			"name": "Upper",
+			"from": [8, 16, 7.5],
+			"to": [24, 32, 8.5],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#texture"},
+				"east": {"uv": [7.5, 0, 8, 8], "texture": "#texture"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#texture"},
+				"west": {"uv": [7.5, 0, 8, 8], "texture": "#texture"},
+				"up": {"uv": [0, 0, 8, 0.5], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Lower",
+			"from": [8, -16, 7.5],
+			"to": [24, 0, 8.5],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#texture"},
+				"east": {"uv": [7.5, 8, 8, 16], "texture": "#texture"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#texture"},
+				"west": {"uv": [7.5, 8, 8, 16], "texture": "#texture"},
+				"down": {"uv": [0, 15.5, 8, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Middle",
+			"from": [8, 0, 7.5],
+			"to": [24, 16, 8.5],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#texture"},
+				"east": {"uv": [15.5, 0, 16, 8], "texture": "#texture"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#texture"},
+				"west": {"uv": [15.5, 0, 16, 8], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "PlaneZ4",
+			"from": [22.5, 4, 7.25],
+			"to": [24, 12, 7.251],
+			"faces": {
+				"north": {"uv": [0, 0, 1.5, 8], "texture": "#Handle"}
+			}
+		},
+		{
+			"name": "PlaneZ5",
+			"from": [22.5, 4, 8.75],
+			"to": [24, 12, 8.751],
+			"faces": {
+				"south": {"uv": [0, 0, 1.5, 8], "texture": "#Handle"}
+			}
+		},
+		{
+			"name": "PlaneX7",
+			"from": [22.5, 5, 5.5],
+			"to": [22.501, 9.5, 7.5],
+			"faces": {
+				"east": {"uv": [1.5, 2.5, 3.5, 7], "texture": "#Handle"},
+				"west": {"uv": [3.5, 2.5, 1.5, 7], "texture": "#Handle"}
+			}
+		},
+		{
+			"name": "PlaneX7",
+			"from": [22.5, 5, 8.5],
+			"to": [22.501, 9.5, 10.5],
+			"faces": {
+				"east": {"uv": [3.5, 2.5, 1.5, 7], "texture": "#Handle"},
+				"west": {"uv": [1.5, 2.5, 3.5, 7], "texture": "#Handle"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -4, 0],
+			"scale": [2.4, 3.53, 2]
+		}
+	}
+}
