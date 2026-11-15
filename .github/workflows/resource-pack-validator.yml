@@ -11,19 +11,19 @@ jobs:
         uses: actions/checkout@v4
       
       - name: RESOURCE PACK VALIDATION - European
-        uses: MrKinau/ResourcePackValidator@v2
+        uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
           resourcepack: resource-packs/european/
           config: .github/workflows/config/resource-pack-validator.json
       
       - name: RESOURCE PACK VALIDATION - Japanese
-        uses: MrKinau/ResourcePackValidator@v2
+        uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
           resourcepack: resource-packs/japanese/
           config: .github/workflows/config/resource-pack-validator.json
 
-      - name: RESOURCE PACK VALIDATION - Cosmetics
-        uses: MrKinau/ResourcePackValidator@v2
+      - name: RESOURCE PACK VALIDATION - Models
+        uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
-          resourcepack: resource-packs/cosmetics/
+          resourcepack: resource-packs/models/
           config: .github/workflows/config/resource-pack-validator.json
