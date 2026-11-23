@@ -10,20 +10,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: RESOURCE PACK VALIDATION - Base
-        uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
-        with:
-          args: -rp resource-packs/base/ -config .github/workflows/config/resource-pack-validator.json
+      - run: for w in european japanese; do mkdir -p stacked/$w; cp -r resource-packs/base/. resource-packs/$w/. stacked/$w/; done
 
       - name: RESOURCE PACK VALIDATION - European
         uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
-          args: -rp resource-packs/european/ -config .github/workflows/config/resource-pack-validator.json
+          args: -rp stacked/european/ -config .github/workflows/config/resource-pack-validator.json
       
       - name: RESOURCE PACK VALIDATION - Japanese
         uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
-          args: -rp resource-packs/japanese/ -config .github/workflows/config/resource-pack-validator.json
+          args: -rp stacked/japanese/ -config .github/workflows/config/resource-pack-validator.json
 
       - name: RESOURCE PACK VALIDATION - Models
         uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
