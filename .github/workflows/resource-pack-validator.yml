@@ -9,7 +9,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
+      - name: RESOURCE PACK VALIDATION - Base
+        uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
+        with:
+          args: -rp resource-packs/base/ -config .github/workflows/config/resource-pack-validator.json
+
       - name: RESOURCE PACK VALIDATION - European
         uses: docker://ghcr.io/mrkinau/resourcepackvalidator@sha256:b0a5b0dc0204a30ef05c2b3c8664ed61fae30f7255941e6761e7b2519877b043
         with:
