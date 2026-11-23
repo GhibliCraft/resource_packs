@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "candles=1,lit=false": {
+      "model": "minecraft:block/ponyo_potions/red/normal"
+    },
+    "candles=1,lit=true": {
+      "model": "minecraft:block/ponyo_potions/red/tall"
+    },
+    "candles=2,lit=false": {
+      "model": "minecraft:block/ponyo_potions/red/normal",
+      "y": 90
+    },
+    "candles=2,lit=true": {
+      "model": "minecraft:block/ponyo_potions/red/tall",
+      "y": 90
+    },
+    "candles=3,lit=false": {
+      "model": "minecraft:block/ponyo_potions/blue/normal"
+    },
+    "candles=3,lit=true": {
+      "model": "minecraft:block/ponyo_potions/blue/tall"
+    },
+    "candles=4,lit=false": {
+      "model": "minecraft:block/green_candle_four_candles"
+    },
+    "candles=4,lit=true": {
+      "model": "minecraft:block/green_candle_four_candles_lit"
+    }
+  }
+}

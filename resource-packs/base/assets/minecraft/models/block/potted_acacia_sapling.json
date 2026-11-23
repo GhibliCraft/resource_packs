@@ -1,0 +1,33 @@
+{
+"__comment": "Designed by Alanbecker with Cubik Studio - https://cubik.studio",
+"textures": {
+    "particle": "block/custom/textures/potted_acacia_sapling/ornament_side",
+    "texture": "block/custom/textures/potted_acacia_sapling/ornament_top"
+},
+"elements": [ 
+{
+    "from": [ 2, 0, 2 ],
+    "to": [ 14, 15, 14 ],
+    "faces": {
+        "down":  { "uv": [ 2, 2, 14, 14 ], "texture": "#texture" },
+        "up":    { "uv": [ 2, 2, 14, 14 ], "texture": "#texture" },
+        "north": { "uv": [ 2, 1, 14, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 2, 1, 14, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 2, 1, 14, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 2, 1, 14, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "from": [ 4, 15, 4 ],
+    "to": [ 12, 23, 12 ],
+    "faces": {
+        "down":  { "uv": [ 4, 4, 12, 12 ], "texture": "#texture" },
+        "up":    { "uv": [ 4, 4, 12, 12 ], "texture": "#texture" },
+        "north": { "uv": [ 4, 3.5, 12, 11.5 ], "texture": "#texture" },
+        "south": { "uv": [ 4, 3.5, 12, 11.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 4, 3.5, 12, 11.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 4, 3.5, 12, 11.5 ], "texture": "#texture" }
+    }
+}
+]
+}

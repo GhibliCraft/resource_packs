@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 64],
+
+	"ambientocclusion": false,
+	
+	"textures": {
+		"0": "block/custom/textures/brain_coral/cattails",
+		"particle": "block/custom/textures/brain_coral/cattails"
+	},
+	"elements": [
+		{
+			"from": [3.85, 0, 7.25],
+			"to": [19.85, 32, 7.25],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 4], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 4], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [11.85, 0, -0.75],
+			"to": [11.85, 32, 15.25],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 4], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 4], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 16, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

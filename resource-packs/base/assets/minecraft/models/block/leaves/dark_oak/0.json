@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves/0",
+    "textures": {
+        "all": "block/custom/textures/leaves/leaves_dark_oak2",
+		"diagonal": "block/custom/textures/leaves/leaves_dark_oak_diagonal"
+    }	
+}

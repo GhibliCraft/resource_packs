@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/warped_planks",
+		"1_0": "block/warped_planks"
+	},
+	"elements": [
+		{
+			"name": "Center_post",
+			"from": [6, 0, 6],
+			"to": [10, 19, 10],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 16], "texture": "#1_0"},
+				"east": {"uv": [6, 0, 10, 16], "texture": "#1_0"},
+				"south": {"uv": [6, 0, 10, 16], "texture": "#1_0"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#1_0"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#1_0"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#1_0", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "post",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

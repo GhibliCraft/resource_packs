@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/brain_coral/cattail_1"
+      },
+      {
+        "model": "block/brain_coral/cattail_2"
+      },
+      {
+        "model": "block/brain_coral/cattail_3"
+      },
+      {
+        "model": "block/brain_coral/cattail_4"
+      },
+      {
+        "model": "block/brain_coral/cattail_5"
+      }
+    ]
+  }
+}

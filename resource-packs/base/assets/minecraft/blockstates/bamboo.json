@@ -1,0 +1,29 @@
+{
+    "multipart": [
+        {   "when": { "age": "0" },
+            "apply": [
+                { "model": "block/bamboo/rods/small/0" },
+                { "model": "block/bamboo/rods/small/1" }
+            ]
+        },
+        {   "when": { "age": "1" },
+            "apply": [
+                { "model": "block/bamboo/rods/large/0" },
+                { "model": "block/bamboo/rods/large/1" }
+            ]
+        },
+        {   "when": { "leaves": "small" },
+            "apply": [
+                { "model": "block/bamboo/leaves/small/0" },
+                { "model": "block/bamboo/leaves/small/1" }
+            ]
+        },
+        {   "when": { "leaves": "large" },
+            "apply": [
+                { "model": "block/bamboo/leaves/large/0" },
+                { "model": "block/bamboo/leaves/large/1" },
+                { "model": "block/bamboo/leaves/large/2" }
+            ]
+        }
+    ]
+}

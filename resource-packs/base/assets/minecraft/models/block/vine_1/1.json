@@ -1,0 +1,269 @@
+{
+	"__comment": "Designed by AnJineer with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/custom/textures/vine/vine_branches",
+		"branches": "block/custom/textures/vine/vine_branches",
+		"leaves": "block/custom/textures/vine/vine_leaves"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ1",
+			"from": [ 0, 0, 15.875 ],
+			"to": [ 16, 16, 15.876 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#branches" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#branches" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 4, 4, 11.5 ],
+			"to": [ 11.5, 11, 11.501 ],
+			"rotation": { "origin": [ 4, 4, 11.5 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 7.5, 7 ], "texture": "#leaves" },
+				"south": { "uv": [ 7.5, 0, 0, 7 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 7.5, 12.5, 11.5 ],
+			"to": [ 15, 19.5, 11.501 ],
+			"rotation": { "origin": [ 7.5, 12.5, 11.5 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 7, 7.5, 14 ], "texture": "#leaves" },
+				"south": { "uv": [ 7.5, 7, 0, 14 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 12.5, -0.5, 13 ],
+			"to": [ 17, 4, 13.001 ],
+			"rotation": { "origin": [ 12.5, -0.5, 13 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 7.5, 11.5, 12.5 ],
+			"to": [ 12, 16, 12.501 ],
+			"rotation": { "origin": [ 7.5, 11.5, 12.5 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 3, 4.5, 12.5 ],
+			"to": [ 7.5, 9, 12.501 ],
+			"rotation": { "origin": [ 3, 4.5, 12.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ8",
+			"from": [ 8.5, 1, 13.5 ],
+			"to": [ 12.5, 5.5, 13.501 ],
+			"rotation": { "origin": [ 8.5, 1, 13.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 12, 0, 16, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 16, 0, 12, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ8",
+			"from": [ 4.5, 7, 14.5 ],
+			"to": [ 8.5, 11.5, 14.501 ],
+			"rotation": { "origin": [ 4.5, 7, 14.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 12, 0, 16, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 16, 0, 12, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ -1, 10.5, 13 ],
+			"to": [ 6.5, 17.5, 13.001 ],
+			"rotation": { "origin": [ -1, 10.5, 13 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 7.5, 7 ], "texture": "#leaves" },
+				"south": { "uv": [ 7.5, 0, 0, 7 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 4.5, 13.5, 13.5 ],
+			"to": [ 9, 18, 13.501 ],
+			"rotation": { "origin": [ 4.5, 13.5, 13.5 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 10, 10, 13.5 ],
+			"to": [ 14.5, 14.5, 13.501 ],
+			"rotation": { "origin": [ 10, 10, 13.5 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ8",
+			"from": [ -0.5, 5.5, 14.5 ],
+			"to": [ 3.5, 10, 14.501 ],
+			"rotation": { "origin": [ -0.5, 5.5, 14.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 12, 0, 16, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 16, 0, 12, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 8.5, 6.5, 14 ],
+			"to": [ 16, 13.5, 14.001 ],
+			"rotation": { "origin": [ 8.5, 6.5, 14 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 7.5, 7 ], "texture": "#leaves" },
+				"south": { "uv": [ 7.5, 0, 0, 7 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ -1.5, 3.5, 13.5 ],
+			"to": [ 6, 10.5, 13.501 ],
+			"rotation": { "origin": [ -1.5, 3.5, 13.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 7, 7.5, 14 ], "texture": "#leaves" },
+				"south": { "uv": [ 7.5, 7, 0, 14 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 10.5, 1.5, 13 ],
+			"to": [ 18, 8.5, 13.001 ],
+			"rotation": { "origin": [ 10.5, 1.5, 13 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 7, 7.5, 14 ], "texture": "#leaves" },
+				"south": { "uv": [ 7.5, 7, 0, 14 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 4, -3, 13 ],
+			"to": [ 11.5, 4, 13.001 ],
+			"rotation": { "origin": [ 4, -3, 13 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 7, 7.5, 14 ], "texture": "#leaves" },
+				"south": { "uv": [ 7.5, 7, 0, 14 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 1.5, 6.5, 12.5 ],
+			"to": [ 6, 11, 12.501 ],
+			"rotation": { "origin": [ 1.5, 6.5, 12.5 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 3.5, 4, 12.5 ],
+			"to": [ 8, 8.5, 12.501 ],
+			"rotation": { "origin": [ 3.5, 4, 12.5 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ8",
+			"from": [ 2, 12, 14.5 ],
+			"to": [ 6, 16.5, 14.501 ],
+			"rotation": { "origin": [ 2, 12, 14.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 12, 0, 16, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 16, 0, 12, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ8",
+			"from": [ 10, 6.5, 14.5 ],
+			"to": [ 14, 11, 14.501 ],
+			"rotation": { "origin": [ 10, 6.5, 14.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 12, 0, 16, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 16, 0, 12, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ8",
+			"from": [ 5, 10.5, 14.5 ],
+			"to": [ 9, 15, 14.501 ],
+			"rotation": { "origin": [ 5, 10.5, 14.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 12, 0, 16, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 16, 0, 12, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 1, 0, 12.5 ],
+			"to": [ 5.5, 4.5, 12.501 ],
+			"rotation": { "origin": [ 1, 0, 12.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 2.5, 8.5, 12.5 ],
+			"to": [ 7, 13, 12.501 ],
+			"rotation": { "origin": [ 2.5, 8.5, 12.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ5",
+			"from": [ 6.5, 3, 12.5 ],
+			"to": [ 11, 7.5, 12.501 ],
+			"rotation": { "origin": [ 6.5, 3, 12.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 7.5, 0, 12, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 12, 0, 7.5, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ8",
+			"from": [ -0.5, -2, 14.5 ],
+			"to": [ 3.5, 2.5, 14.501 ],
+			"rotation": { "origin": [ -0.5, -2, 14.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 12, 0, 16, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 16, 0, 12, 4.5 ], "texture": "#leaves" }
+			}
+		},
+		{
+			"__comment": "PlaneZ8",
+			"from": [ 4, 1.5, 14.5 ],
+			"to": [ 8, 6, 14.501 ],
+			"rotation": { "origin": [ 4, 1.5, 14.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 12, 0, 16, 4.5 ], "texture": "#leaves" },
+				"south": { "uv": [ 16, 0, 12, 4.5 ], "texture": "#leaves" }
+			}
+		}
+	]
+}

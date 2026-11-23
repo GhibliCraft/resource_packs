@@ -1,0 +1,7 @@
+{
+    "parent": "block/custom_template/pane_ns",
+    "textures": {
+        "edge": "block/gray_stained_glass_pane_top",
+        "pane": "block/gray_stained_glass"
+    }
+}

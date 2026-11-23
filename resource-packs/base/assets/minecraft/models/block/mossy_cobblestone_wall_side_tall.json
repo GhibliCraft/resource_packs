@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "block/custom/textures/mossy_cobblestone_wall/cobblestone_mossy_pole_side"
+  }
+}
