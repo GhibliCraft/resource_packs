@@ -6,20 +6,18 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Release tag
-        required: true
+        description: Release tag, e.g. v26.3-8 (empty = newest release)
+        required: false
       status:
-        description: draft
+        description: draft is only visible to project members
         type: choice
         options: [draft, listed]
-        default: draft
+        default: listed
 
 jobs:
   modrinth:
     if: ${{ github.event_name == 'workflow_dispatch' || !github.event.release.prerelease }}
     runs-on: ubuntu-latest
-    env:
-      TAG: ${{ inputs.tag || github.event.release.tag_name }}
     strategy:
       matrix:
         include:
@@ -30,33 +28,36 @@ jobs:
             title: Japanese
             project: dMMAn617
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ env.TAG }}
-
-      # tags v<minecraft version>-<pack number>, e.g. v26.3-8
+      # tags are v<minecraft version>-<pack number>, e.g. v26.3-8
       - id: mc
         run: |
-          tag="${TAG#v}"
-          echo "version=${tag%-*}" >> "$GITHUB_OUTPUT"
-          { echo "notes<<EOF"; gh release view "$TAG" --json body -q .body; echo EOF; } >> "$GITHUB_OUTPUT"
+          tag="${{ inputs.tag || github.event.release.tag_name }}"
+          [ -n "$tag" ] || tag=$(gh release view --repo "$GITHUB_REPOSITORY" --json tagName -q .tagName)
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          v="${tag#v}"
+          echo "version=${v%-*}" >> "$GITHUB_OUTPUT"
+          { echo "notes<<EOF"; gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json body -q .body; echo EOF; } >> "$GITHUB_OUTPUT"
         env:
           GH_TOKEN: ${{ github.token }}
 
-      # merge Base into European and Japanese
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.mc.outputs.tag }}
+
+      # merge Base into European and Japanese pack
       - run: |
           mkdir -p out/pack
           cp -r resource-packs/base/. resource-packs/${{ matrix.world }}/. out/pack/
-          cd out/pack && zip -qr9 "../GhibliCraft-${{ matrix.title }}-${{ env.TAG }}.zip" .
+          cd out/pack && zip -qr9 "../GhibliCraft-${{ matrix.title }}-${{ steps.mc.outputs.tag }}.zip" .
 
       - uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: ${{ matrix.project }}
-          name: ${{ matrix.title }} ${{ env.TAG }}
-          version: ${{ env.TAG }}
+          name: ${{ matrix.title }} ${{ steps.mc.outputs.tag }}
+          version: ${{ steps.mc.outputs.tag }}
           changelog: ${{ steps.mc.outputs.notes }}
           loaders: minecraft
           game-versions: ${{ steps.mc.outputs.version }}
           status: ${{ inputs.status || 'listed' }}
-          files: out/GhibliCraft-${{ matrix.title }}-${{ env.TAG }}.zip
+          files: out/GhibliCraft-${{ matrix.title }}-${{ steps.mc.outputs.tag }}.zip
