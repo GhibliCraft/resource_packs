@@ -3,11 +3,23 @@ name: Publish to Modrinth
 on:
   release:
     types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag
+        required: true
+      status:
+        description: draft
+        type: choice
+        options: [draft, listed]
+        default: draft
 
 jobs:
   modrinth:
-    if: ${{ !github.event.release.prerelease }}
+    if: ${{ github.event_name == 'workflow_dispatch' || !github.event.release.prerelease }}
     runs-on: ubuntu-latest
+    env:
+      TAG: ${{ inputs.tag || github.event.release.tag_name }}
     strategy:
       matrix:
         include:
@@ -20,28 +32,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.release.tag_name }}
+          ref: ${{ env.TAG }}
 
       # tags v<minecraft version>-<pack number>, e.g. v26.3-8
       - id: mc
         run: |
-          tag="${{ github.event.release.tag_name }}"
-          tag="${tag#v}"
+          tag="${TAG#v}"
           echo "version=${tag%-*}" >> "$GITHUB_OUTPUT"
+          { echo "notes<<EOF"; gh release view "$TAG" --json body -q .body; echo EOF; } >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ github.token }}
 
-      # merge Base into both
+      # merge Base into European and Japanese
       - run: |
           mkdir -p out/pack
           cp -r resource-packs/base/. resource-packs/${{ matrix.world }}/. out/pack/
-          cd out/pack && zip -qr9 "../GhibliCraft-${{ matrix.title }}-${{ github.event.release.tag_name }}.zip" .
+          cd out/pack && zip -qr9 "../GhibliCraft-${{ matrix.title }}-${{ env.TAG }}.zip" .
 
       - uses: cloudnode-pro/modrinth-publish@v2
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: ${{ matrix.project }}
-          name: ${{ matrix.title }} ${{ github.event.release.tag_name }}
-          version: ${{ github.event.release.tag_name }}
-          changelog: ${{ github.event.release.body }}
+          name: ${{ matrix.title }} ${{ env.TAG }}
+          version: ${{ env.TAG }}
+          changelog: ${{ steps.mc.outputs.notes }}
           loaders: minecraft
           game-versions: ${{ steps.mc.outputs.version }}
-          files: out/GhibliCraft-${{ matrix.title }}-${{ github.event.release.tag_name }}.zip
+          status: ${{ inputs.status || 'listed' }}
+          files: out/GhibliCraft-${{ matrix.title }}-${{ env.TAG }}.zip
